@@ -1,0 +1,26 @@
+data:
+  datasets_type: vla
+  data_name: robotwin
+  train_path: /data1/hs/User/Program/Compete/LingBot/datasets/RoboTwin_lerobot_v30
+  robot_config_root: configs/robot_configs
+
+  norm_path: reproduce_artifacts/robotwin_clean_v30_norm.json
+  data_ratio_for_norm_compute: 1.0
+  norm_merge_chunk_dim: true
+  num_workers: 4
+
+  joints:
+    - arm.position: 14
+    - end.position: 14
+    - effector.position: 2
+
+  cameras:
+    - camera_top
+    - camera_wrist_left
+    - camera_wrist_right
+
+train:
+  output_dir: reproduce_artifacts/norm_compute
+  micro_batch_size: 48
+  chunk_size: 50
+  max_steps: 100000000000000

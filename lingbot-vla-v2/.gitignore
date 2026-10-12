@@ -1,0 +1,37 @@
+# Python environments and generated files
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local logs and installation output
+/install_logs/
+*.log
+
+# Training outputs and datasets
+/data/
+/datasets/
+/checkpoints/
+/output/
+/outputs/
+wandb/
+runs/
+/models/
+*.parquet
+*.tfrecord
+*.h5
+*.hdf5
+*.arrow
+*.npy
+*.npz
+
+# Model weights and exported models
+*.bin
+*.ckpt
+*.engine
+*.onnx
+*.pt
+*.pth
+*.safetensors
