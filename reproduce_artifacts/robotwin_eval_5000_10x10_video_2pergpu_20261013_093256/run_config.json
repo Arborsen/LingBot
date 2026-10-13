@@ -1,0 +1,49 @@
+{
+  "checkpoint": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/checkpoints/global_step_5000/hf_ckpt",
+  "normalization": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/inference_assets/norm_stats.json",
+  "tasks": [
+    "lift_pot",
+    "click_bell",
+    "click_alarmclock",
+    "turn_switch",
+    "stamp_seal",
+    "place_fan",
+    "put_object_cabinet",
+    "open_microwave",
+    "stack_blocks_three",
+    "place_shoe"
+  ],
+  "episodes_per_task": 10,
+  "task_config": "demo_clean",
+  "instruction_type": "unseen",
+  "seed": 0,
+  "precision": "fp32",
+  "compile": true,
+  "chunk_length": 50,
+  "video_fps": 10,
+  "gpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "slots_per_gpu": 2,
+  "ports": [
+    9370,
+    9371,
+    9372,
+    9373,
+    9380,
+    9381,
+    9382,
+    9383
+  ],
+  "preserved_source": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/robotwin_eval_5000_10x10_video_20261013_091713",
+  "adopted_tasks": [
+    "click_alarmclock",
+    "click_bell",
+    "lift_pot",
+    "turn_switch"
+  ],
+  "new_output": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/robotwin_eval_5000_10x10_video_2pergpu_20261013_093256"
+}

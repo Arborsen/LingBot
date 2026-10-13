@@ -1,0 +1,35 @@
+{
+  "old_launcher_pid": 6085,
+  "old_slots": [
+    {
+      "gpu": 0,
+      "port": 9370,
+      "server_pid": 6086,
+      "client_pid": 8156,
+      "task": "turn_switch"
+    },
+    {
+      "gpu": 1,
+      "port": 9371,
+      "server_pid": 6087,
+      "client_pid": 8022,
+      "task": "lift_pot"
+    },
+    {
+      "gpu": 2,
+      "port": 9372,
+      "server_pid": 6088,
+      "client_pid": 8023,
+      "task": "click_bell"
+    },
+    {
+      "gpu": 3,
+      "port": 9373,
+      "server_pid": 6089,
+      "client_pid": 8088,
+      "task": "click_alarmclock"
+    }
+  ],
+  "suspended_at": 1791855352.0423005,
+  "reason": "Suspend only the old dispatcher to prevent duplicate task dispatch; all original servers and simulations continue."
+}

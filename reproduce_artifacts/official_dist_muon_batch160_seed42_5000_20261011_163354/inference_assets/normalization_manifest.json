@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-12T13:30:56+08:00",
+  "run_directory": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354",
+  "training_git_revision": "2f77a62a37ec157d787fb06a7be0b64cece49277",
+  "training_config": {
+    "path": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/lingbotvla_cli.yaml",
+    "sha256": "2046f9d40a608ccba2e32839dce8ae754a13c61d30322c37e6e527f6139f6ee4"
+  },
+  "dataset": "/data1/hs/User/Program/Compete/LingBot/datasets/RoboTwin_lerobot_v30",
+  "normalization_types": {
+    "arm.position": "bounds_99_woclip",
+    "end.position": "bounds_99_woclip",
+    "effector.position": "bounds_99_woclip"
+  },
+  "statistics_count": 548893,
+  "statistics_keys": [
+    "action.arm.position",
+    "action.effector.position",
+    "observation.state.arm.position",
+    "observation.state.effector.position"
+  ],
+  "assets": {
+    "norm_stats.json": {
+      "source_path": "/data1/hs/User/Program/Compete/LingBot/lingbot-vla-v2/reproduce_artifacts/robotwin_clean_v30_norm.json",
+      "sha256": "09b69086eccede9182e95ebf0a8e78603bb4258184e012f0d41ec3d677186db2",
+      "matches_training_git_revision": true
+    },
+    "robotwin.yaml": {
+      "source_path": "/data1/hs/User/Program/Compete/LingBot/lingbot-vla-v2/configs/robot_configs/robotwin.yaml",
+      "sha256": "a438cb12ca4db1e38e6bac5a9a1e71aafc152a147c48664bb813f833c5ccb8bb",
+      "matches_training_git_revision": true,
+      "norm_stats_reference": "/data1/hs/User/Program/Compete/LingBot/lingbot-vla-v2/reproduce_artifacts/robotwin_clean_v30_norm.json"
+    }
+  },
+  "inference": {
+    "robot_name": "robotwin",
+    "norm_stats_snapshot": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/inference_assets/norm_stats.json",
+    "snapshot_enabled_automatically": false,
+    "explicit_override": "LingbotVLAv2Server(..., robot_norm_path=<norm_stats_snapshot>)",
+    "robot_mapping_snapshot_is_archival": true,
+    "checkpoints_directory": "/data2/hs/User/Program/Compete/LingBot/reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/checkpoints"
+  }
+}
