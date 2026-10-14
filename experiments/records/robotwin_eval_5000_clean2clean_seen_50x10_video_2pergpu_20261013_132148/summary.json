@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "task_count": 50,
+  "validated_tasks": 50,
+  "expected_episodes": 500,
+  "validated_episodes": 500,
+  "successes": 330,
+  "success_rate": 0.66,
+  "rate_scope": "full_run",
+  "reported_completed_episodes": 500,
+  "reported_phase": null,
+  "duplicate_episode_ids": [],
+  "official_final_protocol": false,
+  "run": "robotwin_eval_5000_clean2clean_seen_50x10_video_2pergpu_20261013_132148",
+  "captured_at": "2026-10-14T10:29:48+08:00",
+  "source_directory": "reproduce_artifacts/robotwin_eval_5000_clean2clean_seen_50x10_video_2pergpu_20261013_132148",
+  "source_sha256": {
+    "run_config.json": "6ca4647fea5184972604c384266f36d81e129d997d3eee4ede67601ff6d24539",
+    "progress.json": "6d2dfcc9755ee9d7beba43ba4ab56b24455c8fff6acc17092710784f9591fdf1",
+    "results.json": "a9765bccb371595fab5b3fabca0e4f66290fc0d2532236f4e56d344148c441b0",
+    "setting_correction.json": "2582a39531dad93bf8c9c686d2b97f51997af950e2dd2fe58eb354f19f51e331"
+  },
+  "setting_correction": {
+    "status": "superseded_for_required_setting",
+    "original_setting": "demo_clean + unseen",
+    "required_setting": "demo_clean + seen (clean2clean)",
+    "replacement": "reproduce_artifacts/robotwin_eval_5000_clean2clean_seen_50x10_video_2pergpu_20261013_132148",
+    "randomized_replacement": "reproduce_artifacts/robotwin_eval_5000_clean2random_unseen_50x10_video_2pergpu_20261013_132148",
+    "note": "Old diagnostic videos/results retained. Old clean+unseen scores excluded from clean2clean. Current tasks finish before each slot switches to seen."
+  }
+}

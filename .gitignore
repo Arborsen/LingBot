@@ -8,23 +8,10 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# Keep reproduction scripts and selected inputs at their original paths
-/reproduce_artifacts/*
-!/reproduce_artifacts/*.sh
-!/reproduce_artifacts/*/
-/reproduce_artifacts/**/*
-!/reproduce_artifacts/**/
-!/reproduce_artifacts/**/*.py
-!/reproduce_artifacts/**/*.sh
-!/reproduce_artifacts/**/*.yaml
-!/reproduce_artifacts/**/*.yml
-!/reproduce_artifacts/**/run_config.json
-!/reproduce_artifacts/**/task_list.json
-!/reproduce_artifacts/**/adoption_plan.json
-!/reproduce_artifacts/**/inference_assets/norm_stats.json
-!/reproduce_artifacts/**/inference_assets/normalization_manifest.json
-!/reproduce_artifacts/**/python_overlay/**/LICENSE*
-!/reproduce_artifacts/**/python_overlay/**/py.typed
+# New runtime artifacts stay local, including copied scripts and configs.
+# Already tracked historical files remain tracked. Export small records with
+# python tools/archive_experiments.py instead of force-adding runtime folders.
+/reproduce_artifacts/
 
 # Runtime state, videos, logs, and compiled caches remain local
 /reproduce_artifacts/**/eval_results/
@@ -45,6 +32,10 @@ tensorboard/
 install_logs/
 *.log
 *.pid
+*.mp4
+*.webm
+*.avi
+*.mov
 *.distcp
 events.out.tfevents.*
 

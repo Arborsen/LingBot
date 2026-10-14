@@ -1,0 +1,32 @@
+name: Repository checks
+
+on:
+  push:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/repository-checks.yml'
+  pull_request:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/repository-checks.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  archive-tool:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test result aggregation and archive preservation
+        run: python -m unittest discover -s tools/tests -v
+      - name: Check Python and shell syntax
+        shell: bash
+        run: |
+          python -m py_compile tools/archive_experiments.py
+          while IFS= read -r -d '' script; do
+            bash -n "$script" || exit 1
+          done < <(find tools -type f -name '*.sh' -print0)
