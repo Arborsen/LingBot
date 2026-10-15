@@ -12,7 +12,7 @@
   "duplicate_episode_ids": [],
   "official_final_protocol": null,
   "run": "robotwin_eval_5000_50x10_video_2pergpu_20261013_100920",
-  "captured_at": "2026-10-14T10:29:48+08:00",
+  "captured_at": "2026-10-15T13:37:41+08:00",
   "source_directory": "reproduce_artifacts/robotwin_eval_5000_50x10_video_2pergpu_20261013_100920",
   "source_sha256": {
     "run_config.json": "2d7d85186f5834f1d32482f14641973d846a570982e1a7f744d83fdd9b7ccf57",

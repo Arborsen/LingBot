@@ -1,0 +1,22 @@
+{
+  "run_pipeline.py": {
+    "sha256": "183ab020fcbf88da9356505c011604454414023a87cabf8910035cae389a998d",
+    "bytes": 12587
+  },
+  "training/config.yaml": {
+    "sha256": "8bb66036db8b9ab30016d05d624cb2f838d6c385fa640e93e65d090f12aad201",
+    "bytes": 7305
+  },
+  "source/train_continuation.py": {
+    "sha256": "6e65ac0a51a6cd94dd20a41a27573e16e96ed6f2d238540e05f272a927dd5e50",
+    "bytes": 59457
+  },
+  "source/resume_support.py": {
+    "sha256": "bfa2c3bb226333bfa6e5f2ae0c1353db8e83d2b5c0a0cfbd07b0d5098b49d73a",
+    "bytes": 7895
+  },
+  "source/strict_checkpointer.py": {
+    "sha256": "5a88591dd531fc744fcdb208de89402f0fdde59a6b89068bcd9626a1bf75c1bc",
+    "bytes": 18037
+  }
+}

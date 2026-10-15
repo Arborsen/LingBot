@@ -1,0 +1,15 @@
+{
+  "gradient_checkpointing": true,
+  "gc_off_passed": false,
+  "reason": [
+    "GC off gives less than 3% speed improvement versus GC on",
+    "Peak memory leaves less than 10% headroom on at least one GPU"
+  ],
+  "gc_on_mean_seconds": 11.42144313454628,
+  "gc_off_report": "reproduce_artifacts/resume_5000_to10000_gc_compare_20261014_154104/benchmark/report.json",
+  "formal_restart_step": 5000,
+  "formal_stop_step": 10000,
+  "micro_batch_size": 20,
+  "accumulation_steps": 2,
+  "global_batch_size": 160
+}

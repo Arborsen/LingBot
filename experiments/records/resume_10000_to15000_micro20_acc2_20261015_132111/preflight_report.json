@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": [
+    "all training, controller and evaluation Python files parse",
+    "all four saved rank states at step10000/LR2.5e-5; DCP storage extents and HF shard headers valid",
+    "archived official clean normalization and robot mapping hashes unchanged",
+    "real argument parser matches previous effective arguments except the six intended continuation fields",
+    "loaded old scheduler metadata is replaced by the new stage policy; optimizer momentum retained; all 5000 LR updates verified",
+    "step12000/15000 no-video evaluation plans, hashes and incomplete/failed-training gates verified"
+  ],
+  "checkpoint_rank_states": [
+    {
+      "rank": 0,
+      "step": 10000,
+      "lr": [
+        2.5e-05,
+        2.5e-05
+      ]
+    },
+    {
+      "rank": 1,
+      "step": 10000,
+      "lr": [
+        2.5e-05,
+        2.5e-05
+      ]
+    },
+    {
+      "rank": 2,
+      "step": 10000,
+      "lr": [
+        2.5e-05,
+        2.5e-05
+      ]
+    },
+    {
+      "rank": 3,
+      "step": 10000,
+      "lr": [
+        2.5e-05,
+        2.5e-05
+      ]
+    }
+  ],
+  "learning_rates": {
+    "10000": 2.5e-05,
+    "10001": 2.499999876629949e-05,
+    "12000": 2.0681356214843423e-05,
+    "12500": 1.8750000000000002e-05,
+    "15000": 1.25e-05
+  },
+  "intended_argument_changes": {
+    "data.norm_stats_file": {
+      "before": "reproduce_artifacts/resume_5000_to10000_gc_compare_20261014_154104/inference_assets/norm_stats.json",
+      "after": "reproduce_artifacts/resume_10000_to15000_micro20_acc2_20261015_132111/inference_assets/norm_stats.json"
+    },
+    "train.load_checkpoint_path": {
+      "before": "reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/checkpoints/global_step_5000",
+      "after": "reproduce_artifacts/resume_5000_to10000_gc_compare_20261014_154104/training/checkpoints/global_step_10000"
+    },
+    "train.lr": {
+      "before": 5e-05,
+      "after": 2.5e-05
+    },
+    "train.lr_min": {
+      "before": 2.5e-05,
+      "after": 1.25e-05
+    },
+    "train.max_steps": {
+      "before": 10000,
+      "after": 15000
+    },
+    "train.output_dir": {
+      "before": "reproduce_artifacts/resume_5000_to10000_gc_compare_20261014_154104/training",
+      "after": "reproduce_artifacts/resume_10000_to15000_micro20_acc2_20261015_132111/training"
+    }
+  },
+  "gpu_resources_used": false
+}

@@ -1,0 +1,28 @@
+{
+  "rank": 0,
+  "restored_global_step": 5000,
+  "optimizer_state_counts": [
+    935,
+    737
+  ],
+  "checkpoint_lrs": [
+    5e-05,
+    5e-05
+  ],
+  "continuation_lrs": [
+    5e-05,
+    5e-05
+  ],
+  "schedule": {
+    "start_step": 5000,
+    "end_step": 10000,
+    "start_lr": 5e-05,
+    "end_lr": 2.5e-05
+  },
+  "checkpoint": "reproduce_artifacts/official_dist_muon_batch160_seed42_5000_20261011_163354/checkpoints/global_step_5000",
+  "model_load_strict": true,
+  "optimizer_load_strict": true,
+  "dataloader_state_restored": true,
+  "cpu_rng_state_restored": true,
+  "environ_meter_state_restored": true
+}

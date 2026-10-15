@@ -1,0 +1,15 @@
+{
+  "run": "resume_5000_to10000_micro20_acc2_20261014_150224",
+  "captured_at": "2026-10-15T13:37:41+08:00",
+  "status": "failed",
+  "start_step": 5000,
+  "target_step": 10000,
+  "last_step": 5000,
+  "final_lr": null,
+  "full_restore_verified": null,
+  "source_directory": "reproduce_artifacts/resume_5000_to10000_micro20_acc2_20261014_150224",
+  "source_sha256": {
+    "plan.json": "38017753872fbafc5653c25a819723564cb8af2e2cfe07c5b3a5ff5926981c73",
+    "status.json": "034148f5ac5b8fdbe3aa9ac6cbed067a1a53896a09077a531af8d3dde6fc0938"
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "summary": {
+    "clean2clean": {
+      "step5000_successes": 330,
+      "step10000_successes": 352,
+      "episodes_per_checkpoint": 500,
+      "step5000_percent": 66.0,
+      "step10000_percent": 70.4,
+      "change_percentage_points": 4.4,
+      "improved_tasks": 20,
+      "regressed_tasks": 14,
+      "unchanged_tasks": 16,
+      "improved": [
+        {
+          "task": "handover_block",
+          "step5000": 1,
+          "step10000": 9,
+          "delta_pp": 80
+        },
+        {
+          "task": "open_microwave",
+          "step5000": 2,
+          "step10000": 7,
+          "delta_pp": 50
+        },
+        {
+          "task": "place_dual_shoes",
+          "step5000": 5,
+          "step10000": 9,
+          "delta_pp": 40
+        },
+        {
+          "task": "stack_blocks_three",
+          "step5000": 5,
+          "step10000": 9,
+          "delta_pp": 40
+        },
+        {
+          "task": "place_fan",
+          "step5000": 1,
+          "step10000": 4,
+          "delta_pp": 30
+        },
+        {
+          "task": "scan_object",
+          "step5000": 7,
+          "step10000": 10,
+          "delta_pp": 30
+        },
+        {
+          "task": "move_can_pot",
+          "step5000": 5,
+          "step10000": 7,
+          "delta_pp": 20
+        },
+        {
+          "task": "open_laptop",
+          "step5000": 8,
+          "step10000": 10,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_cans_plasticbox",
+          "step5000": 7,
+          "step10000": 9,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_phone_stand",
+          "step5000": 6,
+          "step10000": 8,
+          "delta_pp": 20
+        },
+        {
+          "task": "dump_bin_bigbin",
+          "step5000": 9,
+          "step10000": 10,
+          "delta_pp": 10
+        },
+        {
+          "task": "handover_mic",
+          "step5000": 8,
+          "step10000": 9,
+          "delta_pp": 10
+        },
+        {
+          "task": "lift_pot",
+          "step5000": 5,
+          "step10000": 6,
+          "delta_pp": 10
+        },
+        {
+          "task": "move_stapler_pad",
+          "step5000": 1,
+          "step10000": 2,
+          "delta_pp": 10
+        },
+        {
+          "task": "pick_diverse_bottles",
+          "step5000": 3,
+          "step10000": 4,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_a2b_left",
+          "step5000": 6,
+          "step10000": 7,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_object_basket",
+          "step5000": 8,
+          "step10000": 9,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_object_stand",
+          "step5000": 9,
+          "step10000": 10,
+          "delta_pp": 10
+        },
+        {
+          "task": "rotate_qrcode",
+          "step5000": 7,
+          "step10000": 8,
+          "delta_pp": 10
+        },
+        {
+          "task": "turn_switch",
+          "step5000": 5,
+          "step10000": 6,
+          "delta_pp": 10
+        }
+      ],
+      "regressed": [
+        {
+          "task": "place_mouse_pad",
+          "step5000": 6,
+          "step10000": 3,
+          "delta_pp": -30
+        },
+        {
+          "task": "stack_bowls_three",
+          "step5000": 7,
+          "step10000": 4,
+          "delta_pp": -30
+        },
+        {
+          "task": "stamp_seal",
+          "step5000": 7,
+          "step10000": 4,
+          "delta_pp": -30
+        },
+        {
+          "task": "blocks_ranking_size",
+          "step5000": 2,
+          "step10000": 0,
+          "delta_pp": -20
+        },
+        {
+          "task": "click_alarmclock",
+          "step5000": 3,
+          "step10000": 1,
+          "delta_pp": -20
+        },
+        {
+          "task": "place_object_scale",
+          "step5000": 9,
+          "step10000": 7,
+          "delta_pp": -20
+        },
+        {
+          "task": "grab_roller",
+          "step5000": 10,
+          "step10000": 9,
+          "delta_pp": -10
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "step5000": 9,
+          "step10000": 8,
+          "delta_pp": -10
+        },
+        {
+          "task": "move_playingcard_away",
+          "step5000": 10,
+          "step10000": 9,
+          "delta_pp": -10
+        },
+        {
+          "task": "place_burger_fries",
+          "step5000": 9,
+          "step10000": 8,
+          "delta_pp": -10
+        },
+        {
+          "task": "place_shoe",
+          "step5000": 9,
+          "step10000": 8,
+          "delta_pp": -10
+        },
+        {
+          "task": "put_object_cabinet",
+          "step5000": 4,
+          "step10000": 3,
+          "delta_pp": -10
+        },
+        {
+          "task": "stack_blocks_two",
+          "step5000": 10,
+          "step10000": 9,
+          "delta_pp": -10
+        },
+        {
+          "task": "stack_bowls_two",
+          "step5000": 10,
+          "step10000": 9,
+          "delta_pp": -10
+        }
+      ]
+    },
+    "clean2random": {
+      "step5000_successes": 163,
+      "step10000_successes": 206,
+      "episodes_per_checkpoint": 500,
+      "step5000_percent": 32.6,
+      "step10000_percent": 41.2,
+      "change_percentage_points": 8.6,
+      "improved_tasks": 30,
+      "regressed_tasks": 9,
+      "unchanged_tasks": 11,
+      "improved": [
+        {
+          "task": "pick_dual_bottles",
+          "step5000": 2,
+          "step10000": 6,
+          "delta_pp": 40
+        },
+        {
+          "task": "place_can_basket",
+          "step5000": 0,
+          "step10000": 4,
+          "delta_pp": 40
+        },
+        {
+          "task": "stack_blocks_three",
+          "step5000": 3,
+          "step10000": 7,
+          "delta_pp": 40
+        },
+        {
+          "task": "blocks_ranking_rgb",
+          "step5000": 7,
+          "step10000": 10,
+          "delta_pp": 30
+        },
+        {
+          "task": "place_bread_skillet",
+          "step5000": 2,
+          "step10000": 5,
+          "delta_pp": 30
+        },
+        {
+          "task": "stamp_seal",
+          "step5000": 0,
+          "step10000": 3,
+          "delta_pp": 30
+        },
+        {
+          "task": "adjust_bottle",
+          "step5000": 5,
+          "step10000": 7,
+          "delta_pp": 20
+        },
+        {
+          "task": "blocks_ranking_size",
+          "step5000": 0,
+          "step10000": 2,
+          "delta_pp": 20
+        },
+        {
+          "task": "grab_roller",
+          "step5000": 7,
+          "step10000": 9,
+          "delta_pp": 20
+        },
+        {
+          "task": "open_microwave",
+          "step5000": 1,
+          "step10000": 3,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_a2b_left",
+          "step5000": 1,
+          "step10000": 3,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_cans_plasticbox",
+          "step5000": 4,
+          "step10000": 6,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_container_plate",
+          "step5000": 5,
+          "step10000": 7,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_fan",
+          "step5000": 0,
+          "step10000": 2,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_object_basket",
+          "step5000": 3,
+          "step10000": 5,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_object_scale",
+          "step5000": 1,
+          "step10000": 3,
+          "delta_pp": 20
+        },
+        {
+          "task": "place_phone_stand",
+          "step5000": 1,
+          "step10000": 3,
+          "delta_pp": 20
+        },
+        {
+          "task": "put_bottles_dustbin",
+          "step5000": 1,
+          "step10000": 3,
+          "delta_pp": 20
+        },
+        {
+          "task": "shake_bottle_horizontally",
+          "step5000": 8,
+          "step10000": 10,
+          "delta_pp": 20
+        },
+        {
+          "task": "stack_blocks_two",
+          "step5000": 6,
+          "step10000": 8,
+          "delta_pp": 20
+        },
+        {
+          "task": "click_alarmclock",
+          "step5000": 3,
+          "step10000": 4,
+          "delta_pp": 10
+        },
+        {
+          "task": "handover_block",
+          "step5000": 0,
+          "step10000": 1,
+          "delta_pp": 10
+        },
+        {
+          "task": "hanging_mug",
+          "step5000": 0,
+          "step10000": 1,
+          "delta_pp": 10
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "step5000": 2,
+          "step10000": 3,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_empty_cup",
+          "step5000": 5,
+          "step10000": 6,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_mouse_pad",
+          "step5000": 0,
+          "step10000": 1,
+          "delta_pp": 10
+        },
+        {
+          "task": "place_object_stand",
+          "step5000": 7,
+          "step10000": 8,
+          "delta_pp": 10
+        },
+        {
+          "task": "rotate_qrcode",
+          "step5000": 1,
+          "step10000": 2,
+          "delta_pp": 10
+        },
+        {
+          "task": "stack_bowls_three",
+          "step5000": 3,
+          "step10000": 4,
+          "delta_pp": 10
+        },
+        {
+          "task": "stack_bowls_two",
+          "step5000": 5,
+          "step10000": 6,
+          "delta_pp": 10
+        }
+      ],
+      "regressed": [
+        {
+          "task": "put_object_cabinet",
+          "step5000": 4,
+          "step10000": 0,
+          "delta_pp": -40
+        },
+        {
+          "task": "place_burger_fries",
+          "step5000": 8,
+          "step10000": 5,
+          "delta_pp": -30
+        },
+        {
+          "task": "place_dual_shoes",
+          "step5000": 5,
+          "step10000": 3,
+          "delta_pp": -20
+        },
+        {
+          "task": "place_shoe",
+          "step5000": 7,
+          "step10000": 5,
+          "delta_pp": -20
+        },
+        {
+          "task": "handover_mic",
+          "step5000": 2,
+          "step10000": 1,
+          "delta_pp": -10
+        },
+        {
+          "task": "move_playingcard_away",
+          "step5000": 4,
+          "step10000": 3,
+          "delta_pp": -10
+        },
+        {
+          "task": "open_laptop",
+          "step5000": 2,
+          "step10000": 1,
+          "delta_pp": -10
+        },
+        {
+          "task": "pick_diverse_bottles",
+          "step5000": 3,
+          "step10000": 2,
+          "delta_pp": -10
+        },
+        {
+          "task": "scan_object",
+          "step5000": 2,
+          "step10000": 1,
+          "delta_pp": -10
+        }
+      ]
+    }
+  },
+  "sources": {
+    "clean2clean": {
+      "step5000": "reproduce_artifacts/robotwin_eval_5000_clean2clean_seen_50x10_video_2pergpu_20261013_132148/stats.txt",
+      "step10000": "reproduce_artifacts/robotwin_eval_10000_clean_random_novideo_scheduled_20261014_204708/clean2clean/summary.json"
+    },
+    "clean2random": {
+      "step5000": "reproduce_artifacts/robotwin_eval_5000_clean2random_unseen_50x10_video_2pergpu_20261013_132148/stats.txt",
+      "step10000": "reproduce_artifacts/robotwin_eval_10000_clean_random_novideo_scheduled_20261014_204708/clean2random/summary.json"
+    }
+  },
+  "caveats": [
+    "10 episodes per task per checkpoint; one success changes task success rate by 10 percentage points.",
+    "step5000 recorded per-action video; step10000 disabled recording and additional per-action observations. Rendering-call changes can change randomized lighting RNG trajectories. These runs do not isolate checkpoint changes alone."
+  ]
+}

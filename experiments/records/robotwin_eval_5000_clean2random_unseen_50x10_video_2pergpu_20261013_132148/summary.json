@@ -1,22 +1,23 @@
 {
-  "status": "partial",
+  "status": "complete",
   "task_count": 50,
-  "validated_tasks": 32,
+  "validated_tasks": 50,
   "expected_episodes": 500,
-  "validated_episodes": 320,
-  "successes": 95,
-  "success_rate": 0.296875,
-  "rate_scope": "validated_tasks_only",
-  "reported_completed_episodes": 366,
+  "validated_episodes": 500,
+  "successes": 163,
+  "success_rate": 0.326,
+  "rate_scope": "full_run",
+  "reported_completed_episodes": 500,
   "reported_phase": "running",
   "duplicate_episode_ids": [],
   "official_final_protocol": false,
   "run": "robotwin_eval_5000_clean2random_unseen_50x10_video_2pergpu_20261013_132148",
-  "captured_at": "2026-10-14T10:29:48+08:00",
+  "captured_at": "2026-10-15T13:37:41+08:00",
   "source_directory": "reproduce_artifacts/robotwin_eval_5000_clean2random_unseen_50x10_video_2pergpu_20261013_132148",
   "source_sha256": {
     "run_config.json": "84c74d6a0858d1fa50feb135255d4827f9551cd63e53dd19d1de3957a5e2d637",
-    "progress.json": "85e987df557823e65fe17a8ee215a3035684506df6310d3ee67e5ad90eea2c0f"
+    "progress.json": "921841d0f07e80260e272cbf3f71337cb0d409dc1a32434d8f5af7746097f9fd",
+    "results.json": "72378426dffa691528c44ec28e40be7df837d35f549fefcb72ff085e979f4a9e"
   },
   "setting_correction": {}
 }

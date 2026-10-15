@@ -104,6 +104,83 @@ class ArchiveTests(unittest.TestCase):
             self.assertNotIn("api_token", saved)
             self.assertTrue((record / "task_results.csv").exists())
 
+    def test_planned_run_settings_are_separate_and_duplicates_are_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            run = root / "reproduce_artifacts" / "planned"
+            run.mkdir(parents=True)
+            settings = [dict(setting="clean2clean", task_config="demo_clean", instruction_type="seen"),
+                        dict(setting="clean2random", task_config="demo_randomized", instruction_type="unseen")]
+            plan = dict(self.config, train="/machine/LingBot/reproduce_artifacts/train/training",
+                        checkpoint="/machine/LingBot/checkpoints/global_step_10000/hf_ckpt",
+                        settings=settings, eval_video_log=False,
+                        slots=[dict(gpu=0, slot=0, port=123, server_pid=999)])
+            (run / "plan.json").write_text(json.dumps(plan))
+            for setting in settings:
+                directory = run / setting["setting"]
+                directory.mkdir()
+                tasks = [dict(result, task=task, **setting) for task, result in self.results.items()]
+                report = dict(**setting, validated=True, successes=8, episodes=20,
+                              success_rate=0.4, tasks=tasks)
+                (directory / "summary.json").write_text(json.dumps(report))
+            self.assertEqual(archive.export(root), 2)
+            saved = root / "experiments/records/planned__clean2random"
+            summary = json.loads((saved / "summary.json").read_text())
+            config = json.loads((saved / "config.json").read_text())
+            self.assertEqual(summary["status"], "complete")
+            self.assertEqual(summary["success_rate"], 0.4)
+            self.assertEqual(config["instruction_type"], "unseen")
+            self.assertIs(config["eval_video_log"], False)
+            self.assertNotIn("slots", config)
+            self.assertEqual(config["slots_per_gpu"], 1)
+            report["tasks"].append(report["tasks"][0])
+            (run / "clean2random/summary.json").write_text(json.dumps(report))
+            previous = (root / "experiments/README.md").read_text()
+            with self.assertRaisesRegex(ValueError, "duplicate"):
+                archive.export(root)
+            self.assertEqual((root / "experiments/README.md").read_text(), previous)
+
+    def test_planned_run_rejects_wrong_instructions_and_inconsistent_totals(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            artifacts = Path(tmp)
+            run = artifacts / "planned"
+            directory = run / "clean2clean"
+            directory.mkdir(parents=True)
+            setting = dict(setting="clean2clean", task_config="demo_clean", instruction_type="seen")
+            plan = dict(self.config, train="train", checkpoint="checkpoint", settings=[setting])
+            (run / "plan.json").write_text(json.dumps(plan))
+            tasks = [dict(result, task=task, **setting) for task, result in self.results.items()]
+            report = dict(**setting, validated=True, successes=9, episodes=20, success_rate=0.45, tasks=tasks)
+            (directory / "summary.json").write_text(json.dumps(report))
+            entries = archive.collect_planned_run(run, artifacts, "test")
+            self.assertEqual(entries[0][1]["status"], "needs_review")
+            plan["settings"][0]["instruction_type"] = "unseen"
+            (run / "plan.json").write_text(json.dumps(plan))
+            with self.assertRaisesRegex(ValueError, "setting mismatch"):
+                archive.collect_planned_run(run, artifacts, "test")
+
+    def test_training_snapshot_preserves_queue_status_and_excludes_runtime_files(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp) / "training_run"
+            (run / "training").mkdir(parents=True)
+            plan = dict(formal_restart_step=10000, formal_stop_step=15000,
+                        full_checkpoint="/machine/LingBot/checkpoints/global_step_10000",
+                        gradient_checkpointing=True)
+            (run / "plan.json").write_text(json.dumps(plan))
+            (run / "training_status.json").write_text(json.dumps({"phase":"waiting_for_free_gpus","last_step":10000}))
+            (run / "run_pipeline.py").write_text("print('example')\n")
+            (run / "training/config.yaml").write_text("train:\n  max_steps: 15000\n")
+            (run / "weights.pt").write_bytes(b"not a real checkpoint")
+            (run / "server.log").write_text("runtime")
+            config, summary, extra, sources = archive.collect_training_run(run, "test")
+            self.assertEqual(summary["status"], "waiting_for_free_gpus")
+            self.assertIsNone(summary["final_lr"])
+            self.assertEqual(config["full_checkpoint"], "checkpoints/global_step_10000")
+            self.assertEqual(set(sources), {"run_pipeline.py","training/config.yaml"})
+            (run / "decision.json").write_text(json.dumps({"gradient_checkpointing":False}))
+            config, _, _, _ = archive.collect_training_run(run, "test")
+            self.assertIs(config["gradient_checkpointing"], False)
+
 
 if __name__ == "__main__":
     unittest.main()

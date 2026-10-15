@@ -1,0 +1,3 @@
+# Frozen experiment sources retain the original bytes and SHA-256, including
+# whitespace inherited from upstream or the actual executed implementation.
+experiments/records/**/source_snapshot/** -whitespace

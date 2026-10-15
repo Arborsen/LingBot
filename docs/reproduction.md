@@ -31,3 +31,15 @@ RoboTwin 环境和资源准备见 [RoboTwin README](../RoboTwin/README.md)。数
 记录上游 commit、个人改动、运行命令、环境版本、数据选择、归一化文件及其 hash、模型检查点、任务集合、指令类型、seed 和推理精度。旧实验没有记录的执行时 commit 不用当前 HEAD 补填；当前工作区版本只代表整理时的源码状态。
 
 实验汇总命令只读取已有结果，不会重新运行实验或验证视频。现有结果中声明的 `validated` 与 `complete` 会被用于归档，归档不是独立复测。
+
+## step 10000 与后续续训
+
+[本轮报告](../experiments/comparisons/step5000_vs_step10000/README.md)汇总完整训练恢复、学习率、显存短测、收敛观察和逐任务成绩。
+归档的 `source_snapshot/` 保存本轮实际实现，包含严格 checkpoint 加载、续训调度、无视频评测以及后台资源等待控制器；`source_manifest.json` 记录原文件 SHA-256。
+
+这些文件保留实验运行布局与本机路径，是用于追溯的冻结快照。复现时需重建本地运行目录、配置及环境路径；不能直接在归档目录启动训练。
+尤其要同步调整 `resume_support.py` 的阶段边界和学习率，完整加载 optimizer 后核验每个参数组的实际 LR，避免仅改 YAML 而沿用旧调度。
+当前 10000→15000 的 CPU 预检查通过；完整 GPU 恢复将在四卡空闲、正式启动后校验。
+
+评测保持 `demo_clean + seen`、`demo_randomized + unseen`，使用 clean 归一化，FP32、chunk=50、每卡两路。
+关闭录像时同时移除逐动作录像取图补丁，保留逐回合成功标记、有效 seed 和计时记录。

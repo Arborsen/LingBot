@@ -1,0 +1,15 @@
+{
+  "run": "resume_5000_to10000_gc_compare_20261014_154104",
+  "captured_at": "2026-10-15T13:37:41+08:00",
+  "status": "complete",
+  "start_step": 5000,
+  "target_step": 10000,
+  "last_step": 10000,
+  "final_lr": 2.5e-05,
+  "full_restore_verified": null,
+  "source_directory": "reproduce_artifacts/resume_5000_to10000_gc_compare_20261014_154104",
+  "source_sha256": {
+    "plan.json": "54eb030b50ba6abafac594b5b8aa75fdbca919dcabbeb29361a035abfb7a09d2",
+    "status.json": "db31076f3473074f663049584c709ab6e32007b4454e41b4c6851de9123ed97e"
+  }
+}

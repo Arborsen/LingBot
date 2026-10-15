@@ -1,0 +1,15 @@
+{
+  "run": "resume_10000_to15000_micro20_acc2_20261015_132111",
+  "captured_at": "2026-10-15T13:37:41+08:00",
+  "status": "waiting_for_free_gpus",
+  "start_step": 10000,
+  "target_step": 15000,
+  "last_step": 10000,
+  "final_lr": null,
+  "full_restore_verified": null,
+  "source_directory": "reproduce_artifacts/resume_10000_to15000_micro20_acc2_20261015_132111",
+  "source_sha256": {
+    "plan.json": "d9801604befc7191db6fc6679ba44fca3ca51f8e037b18e20870a986c05fb271",
+    "training_status.json": "0902798bc5dc369d35c662b2ee13ffcde5e037b1b1e9fc5e879aedfdccfd3e96"
+  }
+}

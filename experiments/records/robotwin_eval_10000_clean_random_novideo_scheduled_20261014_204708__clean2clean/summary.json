@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "task_count": 50,
+  "validated_tasks": 50,
+  "expected_episodes": 500,
+  "validated_episodes": 500,
+  "successes": 352,
+  "success_rate": 0.704,
+  "rate_scope": "full_run",
+  "reported_completed_episodes": 500,
+  "reported_phase": "complete",
+  "duplicate_episode_ids": [],
+  "official_final_protocol": false,
+  "run": "robotwin_eval_10000_clean_random_novideo_scheduled_20261014_204708__clean2clean",
+  "captured_at": "2026-10-15T13:37:41+08:00",
+  "source_directory": "reproduce_artifacts/robotwin_eval_10000_clean_random_novideo_scheduled_20261014_204708",
+  "source_sha256": {
+    "plan.json": "ae5a157febaef9c7359f66c7347b090f85f33defbc94a2313913e551d7390e64",
+    "status.json": "4095bb31ea40d8a217f69cfc28cb1185b444e43a8441e4e54a80cc8748535c4a",
+    "clean2clean/summary.json": "3421a539436b1b77a3d4793e3b8409e9da913f2711e9283625a534244757e6de"
+  },
+  "setting_correction": {},
+  "video_recording": false
+}

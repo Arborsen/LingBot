@@ -27,7 +27,11 @@ commit/push 只提交所选文件，不会移动目录。保持目录有序靠�
 
 汇总只记录一次读取到的快照。运行中的实验会继续变化，需要再次执行命令才能更新归档。若某个 JSON 尚未写完或无法解析，命令会报错，此时等原始文件写完后重试。
 
-手写实验也可以使用 `experiments/<实验名>/README.md` 和 `config.yaml`，不必为它改造评测器。自动索引只覆盖有 `run_config.json` 的旧格式运行目录。
+汇总也支持新评测器的 `plan.json` + `status.json` + 分 setting `summary.json` 格式，分别归档 clean2clean 和 clean2random，检查重复任务、指令和总计一致性。
+包含正式续训计划的运行目录会导出训练配置、状态、loss 分段和恢复记录；等待资源时保留等待状态，不计为完成。
+通过固定白名单额外保存少量 `source_snapshot/` 和源码 hash，便于复现审查；不会遍历或提交权重、视频、缓存、原始日志和进程文件。
+
+手写实验也可以使用 `experiments/<实验名>/README.md` 和 `config.yaml`，不必为它改造评测器。跨 checkpoint 的逐任务对比放在 `experiments/comparisons/`，并链接对应归档记录。
 
 ## VS Code 中的多个 Git 仓库
 
