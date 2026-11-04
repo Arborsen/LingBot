@@ -24,10 +24,10 @@
 
 | Checkpoint | clean + seen | randomized + unseen | 结果范围 |
 | --- | ---: | ---: | --- |
-| step22000 | **79.40%（1985/2500）** | 尚未完成全部50任务 | randomized已有48任务通过校验 |
+| step22000 | **79.40%（1985/2500）** | **43.96%（1055/2400）** | clean为50任务；randomized为48任务，每任务50回合 |
 | step25000 | 77.64%（1941/2500） | **43.52%（1088/2500）** | 两项受场景问题影响的任务已修复重测 |
 
-step25000两设置等权平均为 **60.58%**。表中是 **FP32、固定执行50步、10次Flow Matching迭代、关闭录像** 的本地仿真结果，**不含RTC收益**。22k的两项randomized补测因服务中断未完成，因此不宣布22k与25k的完整综合优劣。
+step25000两设置等权平均为 **60.58%**。表中是 **FP32、固定执行50步、10次Flow Matching迭代、关闭录像** 的本地仿真结果，**不含RTC收益**。在双方相同的48个randomized任务上，22k为1055/2400，25k为1059/2400；不同任务范围的总分不直接作为两权重的完整比较。
 
 结果可查看[逐任务CSV](experiments/benchmarks/step22000_step25000/per_task.csv)、[机器可读摘要](experiments/benchmarks/step22000_step25000/summary.json)与[来源哈希](experiments/benchmarks/step22000_step25000/provenance.json)。早期每任务10回合的实验单独保存在[历史对比](experiments/comparisons/step5000_vs_step10000/README.md)，不与50回合结果混算。
 
