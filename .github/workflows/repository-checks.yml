@@ -4,10 +4,16 @@ on:
   push:
     paths:
       - 'tools/**'
+      - 'README.md'
+      - 'docs/**'
+      - 'experiments/benchmarks/**'
       - '.github/workflows/repository-checks.yml'
   pull_request:
     paths:
       - 'tools/**'
+      - 'README.md'
+      - 'docs/**'
+      - 'experiments/benchmarks/**'
       - '.github/workflows/repository-checks.yml'
 
 permissions:
@@ -23,6 +29,11 @@ jobs:
           python-version: '3.12'
       - name: Test result aggregation and archive preservation
         run: python -m unittest discover -s tools/tests -v
+      - name: Test completion gates and corrected-result aggregation
+        run: |
+          python -m unittest discover -s tools/eval_after_training -p 'test_gates.py' -v
+          python -m unittest discover -s tools/eval_after_training -p 'test_campaign_aggregation.py' -v
+          python -m unittest discover -s tools/eval_after_training -p 'test_native_scene_patch.py' -v
       - name: Check Python and shell syntax
         shell: bash
         run: |

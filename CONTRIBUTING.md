@@ -1,18 +1,21 @@
-# 修改与贡献约定
+# 贡献与维护
 
-目录、实验记录和 VS Code 提交流程见[仓库维护](docs/workflow.md)。当前按私有学习与比赛仓库维护。
+欢迎围绕任务映射、可恢复训练、时序增强、场景重放和结果校验提出改进。
 
-- 文档写清来源、问题、处理与验证；实验数字链接到归档，减少重复维护。
-- 新工具放在 `tools/`，个人参数由配置、参数或环境变量提供。
-- 新运行产物放在 `reproduce_artifacts/`；使用 `python tools/archive_experiments.py` 导出配置和结果摘要。
-- 提交模型或仿真改动时确认所属仓库和 remote；贡献状态记录在 [contributions](contributions/README.md)。
+- 说明具体触发条件、改动后的行为和验证方式；新增实验数字链接到结果摘要。
+- 上游模型/仿真代码与本仓库新增工具分别保留归属和许可证。
+- 通过参数或配置提供本机路径；不要提交权重、演示、录像、原始日志或凭据。
+- 部分结果应保留为partial；不同任务数、场景、指令或执行策略的分数分别展示。
+- 大型GPU实验需要显式运行，不放进提交钩子或默认CI。
 
-修改汇总逻辑后，从根目录执行：
+轻量检查：
 
 ```bash
 python -m unittest discover -s tools/tests -v
-python -m py_compile tools/archive_experiments.py
+python -m unittest discover -s tools/eval_after_training -p 'test_gates.py' -v
+python -m unittest discover -s tools/eval_after_training -p 'test_campaign_aggregation.py' -v
+python -m unittest discover -s tools/eval_after_training -p 'test_native_scene_patch.py' -v
 git diff --check
 ```
 
-轻量检查不依赖 GPU，也不替代模型训练、仿真验证或上游要求的检查。
+依赖PyTorch/图像库或SAPIEN的可选CPU测试见[复现指南](docs/reproduction.md)。详细目录约定见[维护指南](docs/workflow.md)。

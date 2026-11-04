@@ -1,0 +1,109 @@
+{
+  "captured_at": "2026-11-04T10:14:40.333605+08:00",
+  "checkpoints": {
+    "22000": {
+      "clean2clean": {
+        "status": "complete",
+        "validated_tasks": 50,
+        "expected_tasks": 50,
+        "validated_episodes": 2500,
+        "expected_episodes": 2500,
+        "successes": 1985,
+        "success_rate": 0.794,
+        "missing_tasks": [],
+        "corrected_tasks": []
+      },
+      "clean2random": {
+        "status": "partial",
+        "validated_tasks": 48,
+        "expected_tasks": 50,
+        "validated_episodes": 2400,
+        "expected_episodes": 2500,
+        "successes": 1055,
+        "success_rate": 0.4395833333333333,
+        "missing_tasks": [
+          "dump_bin_bigbin",
+          "put_bottles_dustbin"
+        ],
+        "corrected_tasks": []
+      }
+    },
+    "25000": {
+      "clean2clean": {
+        "status": "complete",
+        "validated_tasks": 50,
+        "expected_tasks": 50,
+        "validated_episodes": 2500,
+        "expected_episodes": 2500,
+        "successes": 1941,
+        "success_rate": 0.7764,
+        "missing_tasks": [],
+        "corrected_tasks": []
+      },
+      "clean2random": {
+        "status": "complete",
+        "validated_tasks": 50,
+        "expected_tasks": 50,
+        "validated_episodes": 2500,
+        "expected_episodes": 2500,
+        "successes": 1088,
+        "success_rate": 0.4352,
+        "missing_tasks": [],
+        "corrected_tasks": [
+          "dump_bin_bigbin",
+          "put_bottles_dustbin"
+        ]
+      }
+    }
+  },
+  "matched_task_counts": {
+    "clean2clean": {
+      "tasks": 50,
+      "episodes_per_checkpoint": 2500,
+      "step22000_successes": 1985,
+      "step25000_successes": 1941
+    },
+    "clean2random": {
+      "tasks": 48,
+      "episodes_per_checkpoint": 2400,
+      "step22000_successes": 1055,
+      "step25000_successes": 1059
+    }
+  },
+  "protocol": {
+    "tasks": 50,
+    "episodes_per_task": 50,
+    "precision": "fp32",
+    "prediction_horizon": 50,
+    "execution_horizon": 50,
+    "flow_matching_iterations": 10,
+    "rtc_enabled": false,
+    "video_recording": false,
+    "clean": "demo_clean / seen",
+    "randomized": "demo_randomized / unseen",
+    "training_data": "official clean only"
+  },
+  "training_validation": {
+    "final_step": 25000,
+    "full_restore_verified": true,
+    "final_learning_rate": 2.5e-05,
+    "world_size": 2,
+    "global_batch": 160,
+    "mean_step_seconds": 20.441014387609066,
+    "peak_reserved_mib": 74312.0
+  },
+  "repair_status": {
+    "step25000": "complete",
+    "step22000": "failed",
+    "corrected_randomized_tasks": [
+      "dump_bin_bigbin",
+      "put_bottles_dustbin"
+    ],
+    "completed_step22000_randomized_comparison": false
+  },
+  "limitations": [
+    "Step22000 randomized is partial; no complete equal-weight comparison is claimed.",
+    "Step25000 randomized replaces only the two affected tasks with corrected50-episode retests.",
+    "These fixed50 scores do not measure RTC. Raw rollouts and model checkpoints remain local."
+  ]
+}

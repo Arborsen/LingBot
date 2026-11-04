@@ -1,0 +1,1812 @@
+{
+  "evaluations": [
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "lift_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu0_2independent_20261023_100530/clean2clean/attempts/lift_pot/attempt1",
+      "ledger_sha256": "f10417637519d29d3381a3303132a84c2b689bc10319f624448b76efa3e26506",
+      "result_sha256": "263cb00af10892b024b2ec600a353f2ae1675167ddebda9536a6b5050515cc6f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "scan_object",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_after25000_20261023_105245/clean2clean/attempts/scan_object/attempt1",
+      "ledger_sha256": "851aacb9ac1b82f1b53910d3eadbbd176d9544cbb14451a88c4a3fb64a1f7397",
+      "result_sha256": "55c4f1602779efabeeda7c717c9c347dbff193beff3f8ac51fbb9229730c4695",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "handover_block",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_after25000_20261023_105245/clean2clean/attempts/handover_block/attempt1",
+      "ledger_sha256": "c60b0cd44b0eee524577864523f464c86c45d5aef6069dbb5b78cdc287f1411a",
+      "result_sha256": "e735e3ac612a5e71451d042601cbaf4e4f3e00f0a50b521719069150b14bdcf4",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "click_bell",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_after25000_20261023_105245/clean2clean/attempts/click_bell/attempt1",
+      "ledger_sha256": "9bb33565b42e0d0fb42d16debe29742b7edf19a9071c7798e2e38cf8be2485f5",
+      "result_sha256": "f2cdde07573924c09f1ff68c83d3c2c724ca5ca36f284f74d267981ef7b8d9ea",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "stack_bowls_three",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_after25000_20261023_105245/clean2clean/attempts/stack_bowls_three/attempt1",
+      "ledger_sha256": "6e63a4446c33b1e8c04c250eea16f766bcaec6d1f04603e3b193da4710e02a4a",
+      "result_sha256": "60009a966a2808901c4ce48965e8264c9d479b6c1521737ed460b7c1945cc96e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "open_microwave",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/open_microwave/attempt1",
+      "ledger_sha256": "27f8320e2ed7a8f9ffbeacc98b450c5418aa5953487a2aedbd56eed0502dfe2f",
+      "result_sha256": "0ec3b6f2b09f7e7cecde72bf60e3e1facad60a8fd4060b01360004947d698248",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "stack_blocks_three",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/stack_blocks_three/attempt1",
+      "ledger_sha256": "c89558247cc90fe3b32bed6b19c50049a9bbdea5c3d2a4573b2c852a04bdbb25",
+      "result_sha256": "1fae170c87572d2dac4bc0862aca949860614bacaf89ca84972d680c008ceb9c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "put_object_cabinet",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/put_object_cabinet/attempt1",
+      "ledger_sha256": "79453c31ecf7b53afbd96a1b4b3f84019a48573f2ca089ee3f6b481cdf35ff62",
+      "result_sha256": "9c79b078b2ed85aee5c390b84c80c8109fc8d3d4c8696596880c8e8efb6b979c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_shoe",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_shoe/attempt1",
+      "ledger_sha256": "8646ffea81bceea212dbd4e8da4b3ae681633407ca1b4bc7754a43fe640609e3",
+      "result_sha256": "6bf646c1a8ef306be22b889d1e2eb73a2fd5f360ad8d2e1ec0d4baf5ab752f41",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "hanging_mug",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/hanging_mug/attempt1",
+      "ledger_sha256": "d035c56bbd3973504ee5ce0f2672d6d7740a1321bd8b21005b50b156cc3d28cb",
+      "result_sha256": "d2dbe4f0c58f7213542e157fed910b6f89f475e5f3eda9d45fe7bf153a0e64eb",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "beat_block_hammer",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/beat_block_hammer/attempt1",
+      "ledger_sha256": "cb868afcfd7714c53928a2dde1b1f76c9bd096e539449f9f42287c5067cd86b0",
+      "result_sha256": "2b6105bfe81ddb3a5de24a70bbb7c7075e8c275f7bee6ed67836ada938d1746d",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "adjust_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/adjust_bottle/attempt1",
+      "ledger_sha256": "ed571d0c23fa8ed27e2a351b16374c40577f20525d9a610ad5594b62ceb4d182",
+      "result_sha256": "34cd49a53a7dca624117b7d65446e8180619e2872add558cee1d3aa91c4abafc",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "click_alarmclock",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/click_alarmclock/attempt1",
+      "ledger_sha256": "344e27fed27af2a2274f31e27bd6f89a89f5bfb5d04bd47af2ea60854bcf6573",
+      "result_sha256": "2c86d6272a94dea5f6862cf6833889304068290cf779eecf8a161c8bd05f0389",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "dump_bin_bigbin",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/dump_bin_bigbin/attempt1",
+      "ledger_sha256": "0d48c56bb104e529f1c782b28160d0cbf48c179ffff5ac55aa894b4adb6832c7",
+      "result_sha256": "0f442f5713dee09dc03b1d3b1b0a18dbeadd311e3a8729cc12d8b11bb38d0d3a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "grab_roller",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/grab_roller/attempt1",
+      "ledger_sha256": "92147cd5555bf87be2901331277b9ae298f32fe541d0bb5904792d8a6fbf4d45",
+      "result_sha256": "414340a43450e3f8a8ccda4fb16cbd2020722063f64ef01000e2bbcc4085c865",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "blocks_ranking_rgb",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/blocks_ranking_rgb/attempt1",
+      "ledger_sha256": "ee2d8ff386afef95d92dc3b2a244eaf0b0b862f8053be47299cc39b4b326070f",
+      "result_sha256": "47a5f69f0f19ff0e09de57018263bf7307c023719d0bde7d54b40ddc0c673825",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "blocks_ranking_size",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/blocks_ranking_size/attempt1",
+      "ledger_sha256": "9dc895dd5b4403ec5560ceb15027964d809518947a2a2d478ab8b8fc9e8d86b6",
+      "result_sha256": "dfb422c5370898b93c53e3ffa9dd0eaf0beb79ea03c495e8f43f587175c556f5",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "move_pillbottle_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/move_pillbottle_pad/attempt1",
+      "ledger_sha256": "80611f21bac63646fffb08b69329d687e1d1f16b9c9dfb388e3b26c3f9e13ef7",
+      "result_sha256": "f8a17d0a9b98588bb76a1908301f1360acffafc2f3524ee72f821573d52011ac",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "handover_mic",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/handover_mic/attempt1",
+      "ledger_sha256": "cf9ff4810d7f8b2350d9770e01f01491ea6a7c6f60e160239b4b0410efc2a36f",
+      "result_sha256": "3cbe7f6499b054f2919293530233cbaa649a253bd8656f1bc291a82446eabf86",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "move_can_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/move_can_pot/attempt1",
+      "ledger_sha256": "2da0a139ff62a70ad90328c818905b353fa85f6be5ea65828fec55c4efa9b16e",
+      "result_sha256": "050078ca699aa8f3ace83f4f580842d7bdd717a1a94387ff0618ce397e4d7c5f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "move_playingcard_away",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/move_playingcard_away/attempt1",
+      "ledger_sha256": "203fd727837e70ec300042317ce01461aee1d0e0831aef6f58a5dc05c9f8658e",
+      "result_sha256": "59cc47529fc71ee95912bb87d83e28756f6b3c6b0da989ba6d5fe2954d7e9d2f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_container_plate",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_container_plate/attempt1",
+      "ledger_sha256": "39aaa6318976a808da4c1b6841a0fad127c3f47b78176b224b7c7425f5453956",
+      "result_sha256": "d6ac1bee8c87dcfdcc1f8f90dfa0e2daf2528457cd5e33d407cc2c78c8d93733",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_empty_cup",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_empty_cup/attempt1",
+      "ledger_sha256": "af593bd786e9353c241667995f1a5925bbec3e27fbe50ba8e3d42f241af04eeb",
+      "result_sha256": "e82135500eca96c77f0392255b11975ef97b9a850baf2e7a8695f4c9705f7168",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_fan",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_fan/attempt1",
+      "ledger_sha256": "6e8aa7445c4147e754958230d31063f9461e07ebc44cd5146f99dd6b9260bbf9",
+      "result_sha256": "7993f040ef422fd8dc77e47b202a4c0c786913b9d49a9b3691601b5fd3626cf6",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_dual_shoes",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_dual_shoes/attempt1",
+      "ledger_sha256": "ad03cf85b5103a40d0d606dcd570a9b4084980ac1ade499b7fe36d43a105b573",
+      "result_sha256": "1a7e393b4cee26aea79173d6a3dbc3358f3d425868f98a9a5a98f1ea14f64620",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_cans_plasticbox",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_cans_plasticbox/attempt1",
+      "ledger_sha256": "1e0efd1b8902e87b7fa547b5a7c99daf66a717986d2eeba7ad570a7abf69b138",
+      "result_sha256": "65a452ac8762d42e79e0daac5b0800f937fc8d6e436e3d70a5de41abf3c00959",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_mouse_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_mouse_pad/attempt1",
+      "ledger_sha256": "a0a92fcc0b124a0eb9c0a708b9741da4303534ced80599122ea9d3eba4bf8684",
+      "result_sha256": "d5246779ac2782977fcc205e13bca573bb752680c0f4854c4ab5cf43c9c597bb",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_object_scale",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_object_scale/attempt1",
+      "ledger_sha256": "095e87e591c22beed1da93ac041fa9593f15c6f3dfb746ddf528cda8820cd218",
+      "result_sha256": "f65a676faa6ed00b62e9bfc830b3da00e9f583ac116886ab52ee6a28f0fd9af3",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_object_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_object_stand/attempt1",
+      "ledger_sha256": "4481506ba33a1d4b6144613dec8b5b679a33bf989a5e42ce5b5a8b05639445ad",
+      "result_sha256": "c4e56fb14d031d127a38a4589b4ff71fab187c85103f6bf0cd7534b150751179",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_phone_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_phone_stand/attempt1",
+      "ledger_sha256": "2a8d785c7ce85285faf9355963ccb033fe8d9b0c60ed1ca7c73bc2684884dfb7",
+      "result_sha256": "c46e2d83d594150d5ff6f2371e916b00f5c2a6508f4c927214d2d1754f0502ff",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_object_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_object_basket/attempt1",
+      "ledger_sha256": "21e15965c4db1a0ca734c0ec8a948ba51cc51eed840273d3813369546eed9545",
+      "result_sha256": "9795569ebf1e1588e572df30bf28a029d9a1a56a00703faa326854a1b692770b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "move_stapler_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/move_stapler_pad/attempt1",
+      "ledger_sha256": "08f6d950e3347b6b859844a48ab5dec4cdb729e7e91dff90b723789b3cf07282",
+      "result_sha256": "7cbc20bf52b35afda314c2822093a80d40e8a41ea861ca89569c7b7a178e4c66",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "open_laptop",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/open_laptop/attempt1",
+      "ledger_sha256": "2eb35ba111f7636641e6bf550996be4dffae41054432f6350e20c5e51fd6b9ee",
+      "result_sha256": "5d053e64a3b3159abb22261e1a1303cfbdc5a198395f1b5d48ddb5008b624e33",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "pick_diverse_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/pick_diverse_bottles/attempt1",
+      "ledger_sha256": "988d8926ebf0c51c034613aa8dd386cab29631afe5fc175024359d2328769b33",
+      "result_sha256": "c03e748ae96485fd48ed41ed6c77f0ed58795ad549404194cd26c0c2ea9d764d",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_a2b_left",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_a2b_left/attempt1",
+      "ledger_sha256": "07938088da5ee08a308d068610caba2d6a035893efc955340add8bf72d12c6e6",
+      "result_sha256": "201aa36a66087d2fd6d5b9755abdf77c8d3c5babcb22687cba0d33e979f5ebd1",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "pick_dual_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/pick_dual_bottles/attempt1",
+      "ledger_sha256": "1a5cac75a88cfb948586f519f12e4847337715a6a7a221ad939e60481854016a",
+      "result_sha256": "ee1f12650a950e7ab6c8a8664181983634e7a87e2cff7cfa0ee15781555bcaf0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_a2b_right",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_a2b_right/attempt1",
+      "ledger_sha256": "8730e1bef3ffec05cf30c6d08832279cbee03551aa542df590488cd373647dc8",
+      "result_sha256": "8dcf3136f897b70fb278f89ea8348348b297ad91e621494d00f71a0c8ae9b52c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_bread_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_bread_basket/attempt1",
+      "ledger_sha256": "e0e1947a406da6e35c6395f4cd855d2b6dcc1a080b2e104cd96f85ba0ae4c2d3",
+      "result_sha256": "511592b30825fa8bb9da24b91ea28c232b26b06c0adf4524ae6d60b924b6ba62",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_bread_skillet",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_bread_skillet/attempt1",
+      "ledger_sha256": "e4d22ee05ced6d50f9a42796f9c344e40f0e90140f5f87cc97dcde55a53f8d3e",
+      "result_sha256": "85f08278ada4d7633700298542562aee29ce858b1c6cb3c7269a136dc4316a51",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_burger_fries",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_burger_fries/attempt1",
+      "ledger_sha256": "d3f8420a2fffa16a09a258827cc2d71cf2542b0c399560f203f14d51a5fe2162",
+      "result_sha256": "03fef789b3f10b7667d613d8e006982775cc5770386a6cf9e806bf954d3b9c56",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "press_stapler",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/press_stapler/attempt1",
+      "ledger_sha256": "219e49c48f6baf0404893de5e7e6f843eca86d9ee9f1d8c664fffaa6978c2dfe",
+      "result_sha256": "3fcf1ccd21418d474d2eaf08b5a7434dc21a8126a90e936805e59265c309c584",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "rotate_qrcode",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/rotate_qrcode/attempt1",
+      "ledger_sha256": "b00b91074e9f9c20e44e11302aac30a25f4b3fa2ce71f1fe187e367ca8743173",
+      "result_sha256": "585fa6bfaef15cb99068b98dd40c3eb38034e0e0364f1448c564e12cfb72c8b9",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "shake_bottle_horizontally",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/shake_bottle_horizontally/attempt1",
+      "ledger_sha256": "e3045d78ff73c8b0f6eacc39fd162caf5d9e893a34ba1d0956488dab769ce502",
+      "result_sha256": "7f9dac3b78c5aa3cce782ecad10c020aec2bd8e157d43763bb54c2a2572910d0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "shake_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/shake_bottle/attempt1",
+      "ledger_sha256": "de11a0d60de19e59d4ca38aaa39a0f20303da63fd85d8926dd3185ccec332cf7",
+      "result_sha256": "47bab89ff7e0975b92bed5ca49229904dc6634f6f4ce73ef4145d73f5fb1b9c7",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "place_can_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/place_can_basket/attempt1",
+      "ledger_sha256": "8e9c8bdf68c90c5b3366ab94fe286a81a8fcccb02885e4631d9f54ed0ee9c45a",
+      "result_sha256": "981cd56be1a580f3c19a7db3cfdbc4a469ef722d6788ec236e1ec49546ed2e7f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "stack_blocks_two",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/stack_blocks_two/attempt1",
+      "ledger_sha256": "b06d65a67c38c9800b4f5916af21ac96dec88489024b7dc1b993e88db144b691",
+      "result_sha256": "ff579debf5d8caaf4acdaef83157805412f85d40918e2fcb152b3bdc550b1504",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "stamp_seal",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/stamp_seal/attempt1",
+      "ledger_sha256": "a0aab60988bdbcafbefb4fa1f571de06a62fd7495db6bf8a2c69a8c808fab8aa",
+      "result_sha256": "c4d5736d1002ab98c99823144fda17201ba6c92e4df1cff9777483afc21bed40",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "stack_bowls_two",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/stack_bowls_two/attempt1",
+      "ledger_sha256": "1dd17bf85cb62c786ec7deb929b6f9b9e157660d0b843520e6dc2575b29eb459",
+      "result_sha256": "d10e03afb51a5b64664e7a15b0219a878545f3be8e140fe1a983d17a0a3a0095",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "turn_switch",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/turn_switch/attempt1",
+      "ledger_sha256": "a691a5136705f893a14fddf2341680a64579f826c21bba158c4dfc546685140f",
+      "result_sha256": "5b2296f9278de800dc9bd6d9444b94f2a3418ebef8a13b80b63bdbb0ce9fcc80",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2clean",
+      "task": "put_bottles_dustbin",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2clean/attempts/put_bottles_dustbin/attempt2",
+      "ledger_sha256": "53b6cce8adfb3cc29cac6b4f898d44313237731c7c870b4b888d9e0bde36f751",
+      "result_sha256": "385ddf577b48a837b47012b7caaedf12160126f5b3585537c2a28be5a17d11ca",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "lift_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/lift_pot/attempt1",
+      "ledger_sha256": "7b081b496cc0edcfd77f980acdb9e768c84b0c5f31ffe683debfdf637d6ea106",
+      "result_sha256": "f5b4d49611fb90340b6130fed849709250ae4056a5bec353dec8103c01b24f56",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "stack_bowls_three",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/stack_bowls_three/attempt1",
+      "ledger_sha256": "5c7881ca0064a6cf37ed986c7abe90887bcf83827f7e7004bc4905d2361da81b",
+      "result_sha256": "485c92b9389e9dcb55b92d71d8f06f70f2608dbf087144cdd732f5dae17cc19b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "hanging_mug",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/hanging_mug/attempt1",
+      "ledger_sha256": "c2e00c623a86d9f2ac87d7fac7c70403c893c293116cd4e358bca107164c8d0a",
+      "result_sha256": "19fc1fb3187db22c9beda98ebe800f0b7d62283a654c7602a976a5210799dc31",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "scan_object",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/scan_object/attempt1",
+      "ledger_sha256": "ff183e47df6898e9b5933e9484d321f370e6549a0098627e431703a4aafc7e80",
+      "result_sha256": "a189c4b065105fb9aee23189102e50b12c69d9e25f5cdb1126c87458df434df2",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "open_microwave",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/open_microwave/attempt1",
+      "ledger_sha256": "5e76a7e54bdb3e386241333f41f98159771650d0c9bfd430c8c381643e15aa8e",
+      "result_sha256": "fc5b122282f1e60ad67bca68d84a502f577cd40badbd28bbc11a19770d717a9c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "click_bell",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/click_bell/attempt1",
+      "ledger_sha256": "7ef21953a3cb675a59b925ae569064c6b5ef562b2b86208c0c57845c2c25ecb9",
+      "result_sha256": "79201a0a8256a025bc39dde7a9c545e62202f05411ccf178acc8f416a0e65d0d",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_shoe",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/place_shoe/attempt1",
+      "ledger_sha256": "63082f6a6c552473acf8e37a7c96fca6ee2768616c70e9f8a4522337ffa97616",
+      "result_sha256": "9dacc425a8f8a9b25a60d511777e9564f9564ff6ff6dc179d1e75d127a820d30",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "handover_block",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/handover_block/attempt1",
+      "ledger_sha256": "6f2b167a1d354b6bd2f08d866b117b5fdebf7c63d092a4fb1defde3e85e3937c",
+      "result_sha256": "8d0613c0e8d3bc2bb3491ee651e8b97ec873c55dfc57586bd2ad5542b77a8fbd",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "put_object_cabinet",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/put_object_cabinet/attempt1",
+      "ledger_sha256": "909598579f75eaad9fad478434992c4cfd12f6d9726f0813b193df12c6eaa2ee",
+      "result_sha256": "d8732d787abc89c59669002e52634f40e2305dc5fe7f9ec2ed1a0f3fbbfdbb5c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "stack_blocks_three",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/stack_blocks_three/attempt1",
+      "ledger_sha256": "0bdef0a934638248fb16ed58d7a2a466c380a1441bf228ad09f05759a391e753",
+      "result_sha256": "76fa4c643aa2ce8d2049c706b85461fcba90dcb215099e87396f1df48242641a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "beat_block_hammer",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/beat_block_hammer/attempt1",
+      "ledger_sha256": "efe0d4f596a8d25c2d13839b8f539f716bba36792158a4e735e4f1b9337acf58",
+      "result_sha256": "200ae9b8ca4948b3ea35e457a87e5d8b0e56e92d0db31085bc642e3780bb8480",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "adjust_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_resume_20261024_192119/clean2random/attempts/adjust_bottle/attempt1",
+      "ledger_sha256": "41cbbaf12c32bc9c88960961592ab546de91673a76586fc070fc8bade4ca33ec",
+      "result_sha256": "46cbedb83930a99731bf089e9d15e3f8a4102bfcd22db41671dccf55a27e6ce4",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "grab_roller",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/grab_roller/attempt1",
+      "ledger_sha256": "c3a97141d1e56d2cab7990829274c2333883200f9442d4df5ba67483d74ce280",
+      "result_sha256": "ea32cc72911f1b3edc392462cacda8e17f9ec09377ed7209dd20c458b4243c2e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "click_alarmclock",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/click_alarmclock/attempt1",
+      "ledger_sha256": "5e0826fa1e23fd301a347e5db2e39d6b71d11765f150c2e594c55692b23ee5fd",
+      "result_sha256": "c678ad315df2bfd6b361d81fe67436f0fae39bb9937440e73ce42169d202f2fb",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "blocks_ranking_rgb",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/blocks_ranking_rgb/attempt1",
+      "ledger_sha256": "bbbb619fb8d67cc0847c1765caf601f06008fbd1db622e37f70c58f22fac20b2",
+      "result_sha256": "1320cce9025d1a33490b1c7430d470f78a62c8666ca67cd158c58162bf01843e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "move_can_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/move_can_pot/attempt1",
+      "ledger_sha256": "b0fbe0c6cfae5e4962159ea6dc065fcae2b9cc42b063f8067a972dff73a1a5a8",
+      "result_sha256": "35f0aef324113a876dd3415e59c0be6e9ebe3448c5be68ab029993d0a091687b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "blocks_ranking_size",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/blocks_ranking_size/attempt1",
+      "ledger_sha256": "0278bb9c5699aeff6689ddbbaa72fbefcbf2fd99047adffdda4423b12d43033a",
+      "result_sha256": "efec92d4b4306098ffd543ba702011764e3a4268d4931dc6ec26e2d0f20cc8df",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "handover_mic",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/handover_mic/attempt1",
+      "ledger_sha256": "2c9401fbd00f53402c1a873035ecb5f6e069eb274e31df8e170a799f7353c934",
+      "result_sha256": "80f2cfcac94ff8bff7a7d30951cd125d98d84a832ccfb15c0fafc2e9a8683a84",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "move_playingcard_away",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/move_playingcard_away/attempt1",
+      "ledger_sha256": "c0272ce1010277f10bfbc6d98c074f812799d1133f94e1afdf3453d0136366ff",
+      "result_sha256": "a8b9673456742d31ec5ebb47ba9d9f0364015df4f99d7722dc19800cdbb2c2c2",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_container_plate",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_container_plate/attempt1",
+      "ledger_sha256": "df59a1ef872ee6eb4630f4b7748174dbb2d04888e5e41937bc49ac4ac4149145",
+      "result_sha256": "30a43e28aec835bfe0b29632110711b5c619821e7403caead7e5123e9807e710",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "move_pillbottle_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/move_pillbottle_pad/attempt1",
+      "ledger_sha256": "c77cf254956a804aa033acd25b5909c74b5dd7eb8d3e25ad0ac5d19cea549a96",
+      "result_sha256": "3962ab5b202aff53ccd45303b3ac2abb45bd26f1c7283b51682b8b54e9d1bc8e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_empty_cup",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_empty_cup/attempt1",
+      "ledger_sha256": "56a6ba28a0fba9abfc56ba8f0e58ebed81e0eb1133eb5561740c45168861839a",
+      "result_sha256": "cfeca979021b7dc6f1ddf2083d43d03e0b6c9f95c966c8307ef1f928ae5d5360",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_dual_shoes",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_dual_shoes/attempt1",
+      "ledger_sha256": "f98f291d88acdad83dad4bf0132bf48b786e0aa60262e572639d75562ac29c3f",
+      "result_sha256": "85ea9dca8d91c5de0857817ff9b6b0cfcee670974314c1322ad76518f2296239",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_fan",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_fan/attempt1",
+      "ledger_sha256": "afb5015a1347d57c8f03a382d557ef60ad7fad7ff0ee7e483d6a9c77cdc2de3e",
+      "result_sha256": "ef0dc7384065fbf774661823fc91718edc226e7e9dd1ee80546e2c0adc588e5c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_cans_plasticbox",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_cans_plasticbox/attempt1",
+      "ledger_sha256": "f84dacb52284b8fcf97caa79e054e20cd24ed6b92dcf8a75b0e583156ef35f1a",
+      "result_sha256": "4c88c3e3b59a55c0c9ff5be2a0a352d4a0fd230338a1e21cc3a6b7575a52bc2b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_mouse_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_mouse_pad/attempt1",
+      "ledger_sha256": "739f86c8640ae33c6e40a240791818eb7cbb9609e0232cd39589262c272c83b2",
+      "result_sha256": "98c2f5ada8a55ec1ba95599eaf18efb5b17241b47f8cd995f0096c0252885233",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_object_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_object_stand/attempt1",
+      "ledger_sha256": "8bc61acd092a1d36c4824896b7ef1b421104141bbe20d8acca8ce45451c1ac71",
+      "result_sha256": "fa967f39690e15fac124eb6340c7019d58d116703966cc0163c615bc569181b0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_object_scale",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_object_scale/attempt1",
+      "ledger_sha256": "59b5f8d0bcfbdbb890c89f9f08b56339e55d75985201901d895eae63f51450bd",
+      "result_sha256": "44c24dbdd19af7c3e0f9c87fa38794c6c101b2cdc96ebcceb36ee527fe586ecf",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_phone_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_phone_stand/attempt1",
+      "ledger_sha256": "4067ee23e2e0b1c6d1981cbb011711b639be3bc8e15d62850bf98c35dc6b4304",
+      "result_sha256": "6674099ae8e16530b94e7f4dbbfa99696582b94eb68ff4ff48f8dd73173ae104",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "move_stapler_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/move_stapler_pad/attempt1",
+      "ledger_sha256": "7a76c72675699b2277f91b0bdc551d79a3e21f22acb8f31538db1d0c8f264472",
+      "result_sha256": "26e4c9709f2d3bc368c9b4d4ca670c67ee29de88a63215935a5383fb4918d422",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_object_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_object_basket/attempt1",
+      "ledger_sha256": "b9b78a3345185b186b661e9995efb92d4039e58959ad4be61e1008430f7764f6",
+      "result_sha256": "200f0670bb47bb58d488fbf04180ecc1bcc0a15aa441540dc57c40d5c037dc6a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "open_laptop",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/open_laptop/attempt1",
+      "ledger_sha256": "0beb6af488fac533571f1bc81f266937ec84e81d00d3c3bbb3cd79692cc6360d",
+      "result_sha256": "435a51deea9abd3d033063c175202a7db05c765745fe8c7cf9a37ace2902de92",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_a2b_left",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_a2b_left/attempt1",
+      "ledger_sha256": "2956520e1ced499c494d302b58d3e1c4d7f2d4a9ec61b07fd7236e636ecd6cd9",
+      "result_sha256": "a0c4804b40c194b4d64eb28d52f5ce938ee6ccbe4691dc9f3446494f479c4c27",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "pick_diverse_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/pick_diverse_bottles/attempt1",
+      "ledger_sha256": "f6205e44607df471dfb886cd9f9f67a84d6ea8b72e245ac9b9647e0b02f55918",
+      "result_sha256": "375074f7cf2a597a87efbaea81843241c2395d6aea99265908681389a1f96c2f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "pick_dual_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/pick_dual_bottles/attempt1",
+      "ledger_sha256": "3800f7bf90212c19b071d6c146a9bc2a8a57c836652689bb23d38e11ef779d6a",
+      "result_sha256": "cee16718093778e573bf0e6e76284fac08dcdd925ee14ff03a366c991cf40e7d",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_a2b_right",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_a2b_right/attempt1",
+      "ledger_sha256": "e496c11d449edd9143819b24aad3c6dc639576b537135ef3034d5134bc4c8de7",
+      "result_sha256": "5b8ea7b9b820598e59662fae4570e224b7284c08e75480cb95970b2c481e8195",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_bread_skillet",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_bread_skillet/attempt1",
+      "ledger_sha256": "f128374e00278466a7618d66eb60fcfbc241f3cbc653e01ec4ba01e95e9e1edf",
+      "result_sha256": "f22dccd7b6420fc1c1c03da827c1e7514324ab6db43b1c028582464bd4ea587f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_bread_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_bread_basket/attempt1",
+      "ledger_sha256": "4ac4d3f35334441f572da5e4d55b91a882e5605542c48fceafe10b68f808a4c1",
+      "result_sha256": "fae83595b95202b1a358b42eb166058fba8664ec4c8e28f7a31ce750b61d4c14",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_burger_fries",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_burger_fries/attempt1",
+      "ledger_sha256": "b2d4edbd740c2f815a85eb9b2b98808cd6ee14f6aa1ca1cb6e9527ae24d8b3a6",
+      "result_sha256": "c1a46f77b9b5ab7218ab925985436119ea34c79fd9b78abcc459ff69a5e448b8",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "shake_bottle_horizontally",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/shake_bottle_horizontally/attempt1",
+      "ledger_sha256": "349e5988a43c228b821f6214ec5f60e1857041552f1708b1b7ab0e2efc4d5a77",
+      "result_sha256": "b7915517c3b4d7ce58dc1a78c70c344a8dbc9202f359fa0b6e6e62af839f641a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "press_stapler",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/press_stapler/attempt1",
+      "ledger_sha256": "88c9b11e251b7363671326a3360d8c34ab4340c082750291451b56d0e0db5135",
+      "result_sha256": "cea9e7531cbec87cbc7588ff01558211a474186674b0fa181bf9b7de47432ce2",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "rotate_qrcode",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/rotate_qrcode/attempt1",
+      "ledger_sha256": "bb57db8e1a0a12c2ac849a519da031db343220b22c0c1654b5a84283097bfdd4",
+      "result_sha256": "98a2c77ca70232d5122208986f8dc7f688849b98bff19e5c1358b48281f2e734",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "shake_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/shake_bottle/attempt1",
+      "ledger_sha256": "7764d180fd208e7c07aa0665474d2265f5b5f9355a45dd66266f6a2dee477bfe",
+      "result_sha256": "69837daf70edd4b061bca146d70966adfc21932aee1de548f5499dee01683b34",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "place_can_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/place_can_basket/attempt1",
+      "ledger_sha256": "bcba8f6289cc630657967c1c13e7bc0ba744780549c7ad6e8d2bc9d74449ec1c",
+      "result_sha256": "fad576410950e4c590c3e277070227acde87f0727fbbd878ee0cc6d6e22318f1",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "stack_blocks_two",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/stack_blocks_two/attempt1",
+      "ledger_sha256": "cfc8f4124899e42d21940670e36b0b0d262947074a566603132f2ba44c9b1948",
+      "result_sha256": "a4c043cabe62bfeabf016b862926386177a3459cc72aa7887a7abef1837ddebc",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "stack_bowls_two",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/stack_bowls_two/attempt1",
+      "ledger_sha256": "75b6dcaaa627f25e3d049c370f63f33d5ad71365974fc8c4694194232f16f9b9",
+      "result_sha256": "3eb245ba89fa6db5eed41a2747421c27a7cb7ce598ab2918fdb5979a4d953631",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "stamp_seal",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/stamp_seal/attempt1",
+      "ledger_sha256": "2e9ff8c50d7d9d2ace296fe63561e52558e4856190333396d20bec7318caefa0",
+      "result_sha256": "d5ba045202cf37cb720a87bdc0a760f6323189534df63ec348232344896b5842",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 22000,
+      "setting": "clean2random",
+      "task": "turn_switch",
+      "source": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/clean2random/attempts/turn_switch/attempt1",
+      "ledger_sha256": "d81bb87cb6c5fee5e2067118297ab3cf44f9892a1a7023efe44e0ff25c125b1c",
+      "result_sha256": "8b106eb738959d05e060b88826246e3c79f2fd7ef5b31761f8d1e39f4b1efe99",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "lift_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/lift_pot/attempt1",
+      "ledger_sha256": "d6bad1247b5edc28e2e98b6771a2d8761c45b1b8ab343f235799593a8f2ead3d",
+      "result_sha256": "444f348095028cdbe8f6ad67cf91b7f583ed4b1feee6a7352e34d21648c114e7",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "scan_object",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/scan_object/attempt1",
+      "ledger_sha256": "b7299a1c0d03cb094e580595826e3196d3341f7b2d2834ef2c4bf222c27672f1",
+      "result_sha256": "60c0b4735afae5c5b046af3d8b0c66bdc9d37f16e19119f4d9b8728eff401da7",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "stack_bowls_three",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/stack_bowls_three/attempt1",
+      "ledger_sha256": "f775e0d40e0581650fba086830ac2e1becf88b165bd693b6334ec8df7c73afd8",
+      "result_sha256": "64c7154df1026f5385be16804245acc3263f7c5d21dda72c6027aa6c503632ed",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "click_bell",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/click_bell/attempt1",
+      "ledger_sha256": "fd2abacbdaa303ebe0e4e7b9ad2875936e9b0908603a6a5a9be7dcdc9cdf3e13",
+      "result_sha256": "cf868c5b1cc21d8f856cc19280db13b2cefca87f96fa6d1d00f0b75125091461",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "hanging_mug",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/hanging_mug/attempt1",
+      "ledger_sha256": "247b5ebbea45fcf1a7722ccd4dbf45f0e2ca5678a4bfaac77e460ee9d08fc1b9",
+      "result_sha256": "97397264dbced68a7682bc921d4dec904af09d91b62435d7132c4be52ee2b9d3",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "handover_block",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/handover_block/attempt1",
+      "ledger_sha256": "5de6c24ae39ceaaf6288c4bfa86dd27d6a9f93f06b1f623ef95daac165a06eff",
+      "result_sha256": "c8102b8453ef440a4e18effedb8671e0d08abceef0aa6a5ff3f634c2a2727d64",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_shoe",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_shoe/attempt1",
+      "ledger_sha256": "9d1d50032cd25bc76bd65c5935c535d76dab5973bcbc4a7b41b438d30f7da76e",
+      "result_sha256": "a837c058f66263ff033a7fa30c144101b920f7b6c75494f8c96cdf5e06f8fb27",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "stack_blocks_three",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/stack_blocks_three/attempt1",
+      "ledger_sha256": "2f4fafdcf37cbf5cb6214d9f1810acf9f13cef102f2765684cfd046e95a10631",
+      "result_sha256": "79aa2b8179f32531434943d3775eca23b103395aa56b034ea3f35ab18b086c71",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "adjust_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/adjust_bottle/attempt1",
+      "ledger_sha256": "2bffb92af40f0f966b95bbb0286efad8bac39940584700b5dd5eafc0059f4720",
+      "result_sha256": "677eaefdd6f5137a6a3cf8f1c0bf07b8562c492cbbd5448658ff9f651ed070ce",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "beat_block_hammer",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/beat_block_hammer/attempt1",
+      "ledger_sha256": "aa51fc18fa6d19e7ff60994821584c2c1627baaba0338a6b988e55a36fcce978",
+      "result_sha256": "8fb78de377b87abc903b0dd2eea2e9874a674c603ceac6d424b3bf9dfe3e5c13",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "put_object_cabinet",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/put_object_cabinet/attempt1",
+      "ledger_sha256": "d69155de7a50ba1279e5d13e1087a388b8cdd8d5ba34e43d59c1b89eaa7c17a4",
+      "result_sha256": "afec8eb6e23f4aabbe68950d5649784b9f42a96437ebba1fc9cf97fb557ab3f0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "open_microwave",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/open_microwave/attempt1",
+      "ledger_sha256": "22e7b95a31a666cdaa6ee1aa777aecc3e4c3545a5e8e734658326147f8902c89",
+      "result_sha256": "60826a79f944d180c3a129b49b37cbac446ad88016de5b0fa7be885763562bd2",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "click_alarmclock",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/click_alarmclock/attempt1",
+      "ledger_sha256": "22f46a75975a9710c9edb772c57ef8f4b8d1ec3c615e7d2e37ec8e462d905ea5",
+      "result_sha256": "cacbeed4060e0d56e9dd9c750ebcf803f06ff1c0971989fa5b7c7816750aa1c6",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "blocks_ranking_rgb",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/blocks_ranking_rgb/attempt1",
+      "ledger_sha256": "31297ea9444c8f07dcf501062829825c570ed09394304ffa270f223846732e56",
+      "result_sha256": "2984d40c1d086bb7b4e92aea47926155877e11bcd6ece141b1ba847945f54ef6",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "dump_bin_bigbin",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/dump_bin_bigbin/attempt1",
+      "ledger_sha256": "1794ca9fac3bd90b48cfe7b6c9661bcf92d8f7aadba552bf9ed2f488966b4243",
+      "result_sha256": "56ac1fa714a287415018697eafba9b4d93f030b186ce7e3f7e659d3290db9ac6",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "grab_roller",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/grab_roller/attempt1",
+      "ledger_sha256": "0a9f4ff189054fb6a17db974b26b5a6ace1454b291fd11c52146ec9e37ee51c8",
+      "result_sha256": "af3ab8c657286a63da788c1222e118b5948d7957218a895e3b233566a341245e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "blocks_ranking_size",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/blocks_ranking_size/attempt1",
+      "ledger_sha256": "17f729431fa7b85b92641f1ea833aed1abca99b8b85657755fb9927351ea126a",
+      "result_sha256": "f007b2087a3b2232077b378eaf59b3603b984ee1a4bf6449324be2823e2fb7a8",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "move_playingcard_away",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/move_playingcard_away/attempt1",
+      "ledger_sha256": "e459be86921603d96fe29f1348817806be1401dd7d2facf4c36537356f750892",
+      "result_sha256": "f8d8e8a385fb799961e07accc9aecd7a968f4a83bdab3e7962c5adf2e2fe947e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "handover_mic",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/handover_mic/attempt1",
+      "ledger_sha256": "eac3db2e481d5b1c461af4530b4ee59e71f46c19adad2c8bf84940609d15e3f7",
+      "result_sha256": "5a06f0e3fee149835efc0fda797db7e84ae1f92b2b2f31ca14a52f44f1a6d6fe",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "move_pillbottle_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/move_pillbottle_pad/attempt1",
+      "ledger_sha256": "e8ccb72c91d99cdeb364ee429a33c407777e6f97a054ca8055cd44c4201bbf07",
+      "result_sha256": "40be717233b468ff5efdf245fd794623006862bd2ee13d71b4f3b1758345c8e4",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "move_can_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/move_can_pot/attempt1",
+      "ledger_sha256": "ca5ca1e1cee0696a9621412c7bdb60e34289e239ae233d3c5a9dd3365321e943",
+      "result_sha256": "af75f91a3b66fe6dde9275822bd012dcd6eaa0d4fc4408c136fe9fdaf9f11035",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_container_plate",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_container_plate/attempt1",
+      "ledger_sha256": "eb5aa35752456b0596a250e5a66113d43ebb731b755420ed11fc1b3e799a0412",
+      "result_sha256": "5706726facaf441f81e8f0287625f4bce1792c6f75397bc9cf82d685db42917e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_empty_cup",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_empty_cup/attempt1",
+      "ledger_sha256": "c29727de8b5ee366576f6aaefbea28e34097be9d2110d319a40d26adec9594f6",
+      "result_sha256": "c7b627bffa12b5723391e8400ab378f82c34c5f46ce63013cdf00ced9ac951ab",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_fan",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_fan/attempt1",
+      "ledger_sha256": "ac22fb3441942b0ee979c1d9b823b40fc06480de64c01abec8baf5b3045f257d",
+      "result_sha256": "fce505c6ebfe2ff106bfe1c581b42bcfdccde431f1513a58c6b412847df05981",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_dual_shoes",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_dual_shoes/attempt1",
+      "ledger_sha256": "9462636a68c7e41718740bab26cf6bbc09751fd93fe256445ee71fdb3c360396",
+      "result_sha256": "a085d6c1c886cb93ab4576aad5ce3bbc9c375ad2e3fba411f91d923194c87e53",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_mouse_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_mouse_pad/attempt1",
+      "ledger_sha256": "1aeb08114ca142d06ff536f45439e0cfb7de31dcde0820aff44347f0a7828fb6",
+      "result_sha256": "1da347a58d5b8ecf54555bb5e7699afc4c07cb913df7adafeed47d0e7f062117",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_cans_plasticbox",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_cans_plasticbox/attempt1",
+      "ledger_sha256": "a1d9da77563434a1a68e4dfeb6fca3fdd90590606f113761987ac803dcabf986",
+      "result_sha256": "9ff7d4eb65f4143d9f1002a74daad6c3d9e11764eca3dd869978024115d5b900",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_object_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_object_stand/attempt1",
+      "ledger_sha256": "d23b8ca02aebaf0d8852fc0eb9475023ec4ace02bf0dcb6a6cc91ef56f06086a",
+      "result_sha256": "17cdcb3f2f15aab2cb6aaca11548893e40582c90d8d32cc4ffe522226fbebbf4",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_object_scale",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_object_scale/attempt1",
+      "ledger_sha256": "f44037a23e11c9f2476a294fa7b288d1eb597ba108f92cffa9dffd8bf574af7b",
+      "result_sha256": "a12f8e4c1bbb34c44e3102626f9168882160f77ee181d7d640128e08510bc111",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_phone_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_phone_stand/attempt1",
+      "ledger_sha256": "464e808220626c3fc6d91597cad32df4efad1f580c7f91401a2db3543194c0fb",
+      "result_sha256": "321b1ec3b48421b555c7bc75b08592816b586b981042f007996e14033d1a989f",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "move_stapler_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/move_stapler_pad/attempt1",
+      "ledger_sha256": "f9c2f51d6d2539a4a8e2f2b44b802d228c6539f56344cb416bcd653930869c10",
+      "result_sha256": "e09037601628ad91e2d0d2d3923b77b53ebe13ca434ae547ea510c71c9027a29",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "open_laptop",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/open_laptop/attempt1",
+      "ledger_sha256": "b672f3bd99ede7b0f9135ac1f8fbb0daec0ceb670893fca763a7379d679d3d90",
+      "result_sha256": "4289fda4e3c83927b380e841e3ebdef27614d1d2818185258c78a4cbeabb25fd",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_object_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_object_basket/attempt1",
+      "ledger_sha256": "a77af7f626e23902e4f341f430e7337d2eae44ef2863f1602eb7d4b0684d9190",
+      "result_sha256": "d32489a15f119d01fde5fed33c9efcd045b90f17cc78a4a1fbd750f92ded3e85",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "pick_diverse_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/pick_diverse_bottles/attempt1",
+      "ledger_sha256": "c85eda88b7a685dc11901cb68dc521139b48db6741113b6c9c9b85f1baa5b843",
+      "result_sha256": "3db96e67db819f3c041b205956ec1682e510f191b0e109d4cf554d28d520639b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_a2b_left",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_a2b_left/attempt1",
+      "ledger_sha256": "1dc3a52c0303e41523169ce72fdadcc9bffb23d96aacdfeee19f71671823e7e8",
+      "result_sha256": "764db8fcb939a7ac9ed3c4d5fa54b3ff3f5a858cf2ec97b6d1f1241cd8b4365e",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_a2b_right",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_a2b_right/attempt1",
+      "ledger_sha256": "0f281ded1561256e0f86f94ab20a5b5c1ca1482b0ddbf0bf15158d841af0894a",
+      "result_sha256": "b41a8c3d76cee2f45bf94b7e099659fe10e9e1ff67adb14b36517c5cf587eefd",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "pick_dual_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/pick_dual_bottles/attempt1",
+      "ledger_sha256": "84b78da02a56284fe435a11ae72ea6ddc767bf0f3bfab93aa9fc515f45fb2d37",
+      "result_sha256": "24136a6c97a0e8281c88aedf5593815ee302bbf6c26b51314826f49d39369012",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_bread_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_bread_basket/attempt1",
+      "ledger_sha256": "84f3337af8d39d95c557e15d07e549098001d2cf516119eb1fbd1a6a5670b434",
+      "result_sha256": "53a0ca38bbe8b8946f2fec81f41172b20e777cd3440a0aea2766bf230a53fb3c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_bread_skillet",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_bread_skillet/attempt1",
+      "ledger_sha256": "3430051df4f53b52195a0934348ad874238785a6d3c1a053c9cb49d95c026662",
+      "result_sha256": "14ec9601ab0772a0690f8c6724b3a60a56a00aaf682ed9fb0ca8b2b2268eaec4",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_burger_fries",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_burger_fries/attempt1",
+      "ledger_sha256": "68b2d35a63747890fcb368547299326195c290235ca4b962b3e7a32c0013ff75",
+      "result_sha256": "4b3befcf8bf671b2ceacb1c220d87057364b030587da597fa4a2af0ab7277b35",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "press_stapler",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/press_stapler/attempt1",
+      "ledger_sha256": "3505fdfd6ed3a65362a2654649da8316b792c42a537349eb0278416cb6b16d82",
+      "result_sha256": "4a3c4f5ebf77669821b3828ec8994b1bfa024f426002057276cf4d36ac323af6",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "rotate_qrcode",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/rotate_qrcode/attempt1",
+      "ledger_sha256": "9b5611637feb7589bae9837c8210e51d2aac51d117c62e700614433237a02130",
+      "result_sha256": "94ecc55334da2981a20fbb93eed90b942f6130af6a8a4648447332eb85fcc807",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "shake_bottle_horizontally",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/shake_bottle_horizontally/attempt1",
+      "ledger_sha256": "f44244fb05321f73256c5784757a259a120edb63d2940f0bb0fd02178c650388",
+      "result_sha256": "59fbd51c2c32baf866a92c3e76dcc2123d86de55bdf26fa737ab4ea07846c2ca",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "shake_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/shake_bottle/attempt1",
+      "ledger_sha256": "ccc427d40e30df7600b3289f364c6eb41de705c4ebfb8bbc44229813c9951fc3",
+      "result_sha256": "08285e3ec79d9c27acb0f48cdd410bdcffcfb607b2867ce0e0f4988e28e69f88",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "place_can_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/place_can_basket/attempt1",
+      "ledger_sha256": "dbc7d35919bf8545a705e08b9c23494be2ebd8c5d3dc16eabbf457dc4f422bd2",
+      "result_sha256": "418fa729de276ad69901250a9d25342454d9eb1256ec5925136021ddba1e2369",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "stack_blocks_two",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/stack_blocks_two/attempt1",
+      "ledger_sha256": "820ad4a8502017bf9ddc6b91c69189be13640e4ec508503f6326e544c1d3e24d",
+      "result_sha256": "6a99e41ae5bf2c964e08d557c39f8bb6852c3d8a42829108237b5cc95f9fd9fb",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "stack_bowls_two",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/stack_bowls_two/attempt1",
+      "ledger_sha256": "027b57c04a3c6bac7f7570144e6b67379021c1d9621e895ddb111664c6268f81",
+      "result_sha256": "c6accd66dc176653edb88def94085125e7a9ea876492768bd6a51223e7dc2a62",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "stamp_seal",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/stamp_seal/attempt1",
+      "ledger_sha256": "cefbc5855270b40c425e632b415a67c5ffeb2fae612eb5bd6e512e264454aad5",
+      "result_sha256": "8c9c201db557ea08162832c9f1b70208ffbe7dfaf576888df2108b4cbf5071ed",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "turn_switch",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/turn_switch/attempt1",
+      "ledger_sha256": "4a2806c861dd76b73265dcc6fc94f0cc73304d76f92a80c537da7f9eed678b1d",
+      "result_sha256": "abe52c7aa1e550aa8f21285dd83d0ae930558c356ab0ea03e1ca891b1e5a5fbf",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2clean",
+      "task": "put_bottles_dustbin",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2clean/attempts/put_bottles_dustbin/attempt1",
+      "ledger_sha256": "5edc7925556606856c4212ec412e48cc718fcba99160706217fb5dd211f537a0",
+      "result_sha256": "822ac1af7cc847892be0ecbc1d3dc225f60e97f7ce5eac57cb3a52c4596c94ef",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "lift_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/lift_pot/attempt1",
+      "ledger_sha256": "a7658bd66f3c3ae50d0ee2bd921cf1fc45ccba95480c73c4705bd52a9aad8295",
+      "result_sha256": "b5d79f43d2895a58420c107cb4754c05b541349b9a74660e5273fd18ec522b89",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "scan_object",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/scan_object/attempt1",
+      "ledger_sha256": "5a30625a283cba26dc4608d22fdf8aaf67f257db594997639299611c18a2db65",
+      "result_sha256": "d2d2b3be12a50f479fb844e1c73a512e4a7727f3f294ebd25c1bc6995cf9284b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "stack_bowls_three",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/stack_bowls_three/attempt1",
+      "ledger_sha256": "a39e77c8f72530e1e4631f9fde8af1d383018f64f06d102adb1c0c5495838b57",
+      "result_sha256": "c43452b98e4755835395bc6a896ca19f16f9c97a3f8d7abb17ebbb36aeae253c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "click_bell",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/click_bell/attempt1",
+      "ledger_sha256": "cdc80c967730cd45265912e7bf41e4d5f349928c2b79a1fe59de816040067ee4",
+      "result_sha256": "08450a46e4881745e3aa8d34da4a27fc4e347dc25a12553ca8b3e8c8bd8e1aeb",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "hanging_mug",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/hanging_mug/attempt1",
+      "ledger_sha256": "a70262943a9c3a9168e538799b45234ec78451f0e951a6bedf9396efd16209c7",
+      "result_sha256": "c6dee8eb2099365370119e26757f4886fe5d26a3884f3ea9977bbc155bc503d5",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "handover_block",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/handover_block/attempt1",
+      "ledger_sha256": "631b3bef928461ccd2adc787f161aea3bc1ba01b396554e25de99def29087b17",
+      "result_sha256": "bb7795e5e3dbf09e55e2ae3dbc2d51ff189d8a72aa405d4b8c4214bdeec1035d",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_shoe",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_shoe/attempt1",
+      "ledger_sha256": "249d26f4632b5b159a2d8f42279b830921f360064b82ad3c3e3d77019bfe8e9d",
+      "result_sha256": "23288a65be026dba88c0202e3504a2ee14dea49f934d9225f632ba681f68f242",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "adjust_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/adjust_bottle/attempt1",
+      "ledger_sha256": "6e5a80f1c3f4d9953863ac819335462581e138406dbeb01f8120939b74ad6cdd",
+      "result_sha256": "e26e4e2cfa6ef4b130f845adca05f324d4be07382eb1463e75d14a4fd4d91317",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "stack_blocks_three",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/stack_blocks_three/attempt1",
+      "ledger_sha256": "ed6f30a29e1ea90c267332d15c73840043d159e7327f679e57a1497003723ee3",
+      "result_sha256": "54fe08e8783cc303964bb75a3566d1bf4e1c8511150ae7da0ef9eeaef75f83e0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "open_microwave",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/open_microwave/attempt1",
+      "ledger_sha256": "c34c3266b02797e3e837d13794f288db3a3978ab281de00128eb27ab9feedae2",
+      "result_sha256": "46707d65b23f2b3dcf7912b83283e4e215b7444d877abf4070452562b3640c7b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "beat_block_hammer",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/beat_block_hammer/attempt1",
+      "ledger_sha256": "c83a4bd4d3761e576030abcd304652b8f9504f767568b7c91841ce3f339a3541",
+      "result_sha256": "b68f80efbb5a8ee90267817bbf458081dcdb6068f5c50ee1a8c9b5215eea4e49",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "click_alarmclock",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/click_alarmclock/attempt1",
+      "ledger_sha256": "74577d5ba5cdab633cbb5910c73342f15586ff1133569a3e2945e7ee59c93d2d",
+      "result_sha256": "c3db0401328362b344d57cdc468f06e206f2f96190cd86c4f828941a17c06878",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "put_object_cabinet",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/put_object_cabinet/attempt1",
+      "ledger_sha256": "5422e9dd98ad24ff2e93207fa70806003a9f4e0bc79fa556a7f8e63eecfacc8a",
+      "result_sha256": "68dca834fb04934b3e586cfb1d9239fd56d4e4c8c85e57f9bf0be9ffbd0fc25b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "blocks_ranking_rgb",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/blocks_ranking_rgb/attempt1",
+      "ledger_sha256": "264cd59a4dac1675ad861518d16d83a9224422526776095687b4ae826ae3bec8",
+      "result_sha256": "35e7734eb57cc26aec7b5f5e8451429c4bc2233c89ebcbc2487222231f17be9a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "grab_roller",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/grab_roller/attempt1",
+      "ledger_sha256": "14916c4895dbeaf7bc9dcabd4d12ceec05541618f17f97f760acac5612e339b7",
+      "result_sha256": "c8ea3034dce2224f60416832b30985236189423f1bede3dfecc2591d0e7eb0cf",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "dump_bin_bigbin",
+      "source": "reproduce_artifacts/robotwin_eval_22k25k_scene_repair_20261025_103854/step25000_retest/clean2random/attempts/dump_bin_bigbin/attempt1",
+      "ledger_sha256": "eb3ecc106c475baafe4f31eb8bb0455c9018a3321379a39774d09d9bf6c35bd1",
+      "result_sha256": "c0b1325c5260002c26a25e8d43ed5b69207efc0ee8eec7f8da55e7681db93578",
+      "repaired": true
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "blocks_ranking_size",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/blocks_ranking_size/attempt1",
+      "ledger_sha256": "e13e1c69ed999e044077a82858b0e2eb1983624aad0b13d18de9ea97fc53030f",
+      "result_sha256": "e539934a406ccd53c18edf6b5f7a1b35190b39aafb1ecdf193720f1949185955",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "move_playingcard_away",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/move_playingcard_away/attempt1",
+      "ledger_sha256": "ddfe9a05dee77c95a5170c400fd91689274e5927fc17b9404d8c9c27cd3f6594",
+      "result_sha256": "a0a03d07c108376ffc1f52904049d4e86d611a3ed0e87e8beb6ba6ba2a9c4749",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "move_can_pot",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/move_can_pot/attempt1",
+      "ledger_sha256": "ba8673da9a43b8f8c7321eb660ed7bc459a7c5a60a48d926b450bc6682bc5757",
+      "result_sha256": "28a87e7b14eefc2f53866685107ff7d5f865a0a9495e993dab2babd40fd97711",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "move_pillbottle_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/move_pillbottle_pad/attempt1",
+      "ledger_sha256": "27503d587121be4230d5784c1ceddebb8ab50c4dccfe1a0d57c0472bb390ddad",
+      "result_sha256": "40f451a473f1e209ab88090347b4ed425622971e902c5b50f003a47a3febc70b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "handover_mic",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/handover_mic/attempt1",
+      "ledger_sha256": "cc01a1c44010ca86e08e12dbd3388de7474dcbf3d1b866363567da984bce2ee5",
+      "result_sha256": "2848101eb9a0f652f8a4add96842e150fa5a62e76da60de5f0b74b45335ca880",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_container_plate",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_container_plate/attempt1",
+      "ledger_sha256": "9852086fa8b2b4224bbbe4e3f1c61bb0f4f0ad9eec19f102f0ab993bf3526602",
+      "result_sha256": "f8a338416163e0e88d5468498451b5ddbf9a51b9c9c1d7283703f8108458d26a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_empty_cup",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_empty_cup/attempt1",
+      "ledger_sha256": "7375e29c8bab39a5186f8b1401b56c23f6a73046389379ed16bd4a8dc8987a9b",
+      "result_sha256": "26d8a40f1f0634f28879f7cb39bc98d4b242a6b9456df0753b9fa01df6ee8e80",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_dual_shoes",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_dual_shoes/attempt1",
+      "ledger_sha256": "5b1440ef84d454792510de029421967a1222a54d9f36a2e3a6763f5802ea7129",
+      "result_sha256": "1462ca096978134949cc96d37baf4d60f1ff6152eb83c44bdaa802d86499d916",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_cans_plasticbox",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_cans_plasticbox/attempt1",
+      "ledger_sha256": "f6dbef1b49064beaa755f937607a49b2894733407b5272a9b2ca9b70199b8989",
+      "result_sha256": "6fa7e38ac76bc7a580cf5b399476647c8c7bf24db1cdd3f1e58ab60672acf11b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_fan",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_fan/attempt1",
+      "ledger_sha256": "27df0c9dbb74d34c20084a06f133bd763a8b6bc509e4eca3c8f480c5ba9e7f06",
+      "result_sha256": "deaf005bc1270d6c0419fffb9f90506e70e9e2a2ae8c99ded4142b1bd31e5008",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_mouse_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_mouse_pad/attempt1",
+      "ledger_sha256": "57d200079d480b8468ff8f88a5869e06906d1089b5498828d5690698eab78be5",
+      "result_sha256": "64dc58baf8f3aeeae53b2c849f463c6cc288961f87ed0d29ceffa15dc3823cf1",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_object_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_object_stand/attempt1",
+      "ledger_sha256": "cc833c9f51fb0f67f6ee082ecf853d9e2a72992c743a95ac529acc2c56e2d0f5",
+      "result_sha256": "d070ba212c60f6b346c4b18e2e53d19c7cb36796ce53b25bcf00fd5f450bd037",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_object_scale",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_object_scale/attempt1",
+      "ledger_sha256": "7cf89a08e67baa20c4b2b9fcfeac96b728fa882a4dcf5544d0a13000a94f7c1d",
+      "result_sha256": "fe5e263db65d6a21ba1603c2713da94fcda254c2eb1e874bea960d3de8ad64f8",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_phone_stand",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_phone_stand/attempt1",
+      "ledger_sha256": "28232097ae6b3f0e52b104067579a372b5b22934ff28704f5713ba600a60a904",
+      "result_sha256": "6af22856cb9aea4ee62ae2f3ad2bb2663d6bfb236697529eefa161dee8ec3bee",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "move_stapler_pad",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/move_stapler_pad/attempt1",
+      "ledger_sha256": "e7b0cbe6ecad670f0adf42c21951b1707604fb5763c1ebe5617f3be3a613c563",
+      "result_sha256": "335c5e200be3f720bf1665383b5d51263a76d422fe3baca6e3060a4cd0fc6242",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_object_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_object_basket/attempt1",
+      "ledger_sha256": "676fa55231929ce7e300a1c87b10b9a106d0948d7a06c012e28e57dce9c052c3",
+      "result_sha256": "7faa5373ccf20de3f910da5eeb9dd3aa4827e56cf586d32e4dd3bb1b4aa2ee23",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "open_laptop",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/open_laptop/attempt1",
+      "ledger_sha256": "8ac7699ba5c67bdd0708abbfd5d4ec17bf44abb807cf1aafa3f98a5f206b96c2",
+      "result_sha256": "769e9b76d6ea6ea65013db65d359433f0a83d8570e32027743ed0cb9b56f7abf",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "pick_diverse_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/pick_diverse_bottles/attempt1",
+      "ledger_sha256": "9b29c912281db26264c46e39543ac377a2148b1215d24491252849ce6574d819",
+      "result_sha256": "b2fdc68188996d515462fbc81f5ed5e7bee2b84014b67e9280a92633f91d3288",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_a2b_left",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_a2b_left/attempt1",
+      "ledger_sha256": "04c1af6c9765db3ff8208e238265ca1b8b21eedd372c9fa7b7372624a872c63e",
+      "result_sha256": "0d9bd647e3e75a3fd92ab8c25aea0ecdc7828326617b6429ebb89e33b085adb1",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "pick_dual_bottles",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/pick_dual_bottles/attempt1",
+      "ledger_sha256": "8bc47ec28359926c3c42c707ef158bdc6e1d6e4ba7a7c80d83bdc1578157250e",
+      "result_sha256": "8f39196cba38e4732437dfcbc453ad5debe60e25c149edea9f8353d99436391a",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_a2b_right",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_a2b_right/attempt1",
+      "ledger_sha256": "c690b8fc0a858fce4627d2c9464bba24ea929decfcee7a32437b2c5a57477155",
+      "result_sha256": "fd9c6b04da35989107ff789fa9274c1ab355743b013390c0902cf8655e78caec",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_bread_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_bread_basket/attempt1",
+      "ledger_sha256": "d0ca657a70b4f84a9676b1baab8b0d34859adb631a65ac19936d4aede6bae01a",
+      "result_sha256": "211b2811ecc70bb8a9b0a875904ad5d0001b97cd6068077dd6a5f3db527f901c",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_bread_skillet",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_bread_skillet/attempt1",
+      "ledger_sha256": "bc1837ffb79a289c099f49e882c10bc455ed7e857c9702b187ad2b109d442900",
+      "result_sha256": "2f1ab7bf00f2c6fb6f817b3d6f3787c7fb02a4b64d79db5848310c702e7efdfa",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_burger_fries",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_burger_fries/attempt1",
+      "ledger_sha256": "0ea3bb1f7801bff2ca1eae9114ec3e9783aae5965d2dd53eed23aafe5c9aaa68",
+      "result_sha256": "4aa62e702b83eae889daa8fe893cab2045701cbfb97a9b90d2b88a5d064b6ef0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "press_stapler",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/press_stapler/attempt1",
+      "ledger_sha256": "9e15e449da525cb19fcbaad32c05779ddeeb5c7dda0878fa166478a279908918",
+      "result_sha256": "7e0d1f4a2f9ced92645b2d13700a1984a4129fc0c8b5886be10dd723cf2d4a6b",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "shake_bottle_horizontally",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/shake_bottle_horizontally/attempt1",
+      "ledger_sha256": "6835c9c6ba3a6bb4af645125471a4f514dea835e4c3d564213ba2c3f1d6b5c82",
+      "result_sha256": "d9b9da552ffd471bb970399baf10988bf72651b858583e930e2295788cde8ab0",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "rotate_qrcode",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/rotate_qrcode/attempt1",
+      "ledger_sha256": "2633fd1a1ee2d19dc78f4fec833beb6d9b6362d7e30383197b8a25faec12ca9f",
+      "result_sha256": "76404fe2f5f2b4847056be2c6c029f66956bddc19dacf574d1c599fa3ae81ed3",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "shake_bottle",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/shake_bottle/attempt1",
+      "ledger_sha256": "ceade9e829dcd10259af929ab46d8d2f1499e37c8576155d52dcdfba3cb432f7",
+      "result_sha256": "f860e1a4fc76f84130c9a33b36398b7d686bdc9362d680bd603d0ab19f8c51cc",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "place_can_basket",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/place_can_basket/attempt1",
+      "ledger_sha256": "716ba6c8a053c96b0c07e05e47676f6af2b51ae8b48d9fcab5bd6a4c461cabe5",
+      "result_sha256": "5d04ffbe789f85fc51b9db13b84c1e05fe88c6e1782f9de1950e12df294a9b93",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "stack_blocks_two",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/stack_blocks_two/attempt1",
+      "ledger_sha256": "8c25b62c8172094399f93e241348be480b41cc27ccd0695ab19a0535a5d2f1a7",
+      "result_sha256": "b8f1f24cfeca62ba651b698757b143c7095818300cacc35e5bc102215e25bb16",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "stack_bowls_two",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/stack_bowls_two/attempt1",
+      "ledger_sha256": "464cd9f9bb87dbb83b72700dd5b932602de655758ed76a09d0c966208ff3bcf3",
+      "result_sha256": "c04c5a46b0ec47fdbf88842a3cdfac7865f550a347c22083f6412254c1799acd",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "stamp_seal",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/stamp_seal/attempt1",
+      "ledger_sha256": "a3de61713bcb590b53d8ff8d9ad8e5db7608557cdd217fcef7392815ec12f976",
+      "result_sha256": "e669340a9624249b05f67a25f8ed8e5bfc00900d7da88fd6b4061c350e459ff5",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "turn_switch",
+      "source": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/clean2random/attempts/turn_switch/attempt1",
+      "ledger_sha256": "d1c21e2167bd3ad5a66e245181214866ba2ce64dc46d62873c1e0718582cf5fc",
+      "result_sha256": "506521586c636913817047f0a6f7ca798d650434e47c0f6af06e381d4f9bb424",
+      "repaired": false
+    },
+    {
+      "checkpoint_step": 25000,
+      "setting": "clean2random",
+      "task": "put_bottles_dustbin",
+      "source": "reproduce_artifacts/robotwin_eval_22k25k_scene_repair_20261025_103854/step25000_retest/clean2random/attempts/put_bottles_dustbin/attempt1",
+      "ledger_sha256": "ae563a142a6020965c97450126dc0adb1059ba579b9bdb28a7e78f34a27cd515",
+      "result_sha256": "f7b7297514bd6351375b8782c4dec09f3f43727fa59fe9578ff08a131ba58a30",
+      "repaired": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "reproduce_artifacts/robotwin_eval_step22000_50tasks_50episodes_novideo_gpu12_remaining_20261025_103159/status.json",
+      "sha256": "9d20441c210d176068986a6d15bd568b417603da3fe531b617031b73e66e3d8f"
+    },
+    {
+      "path": "reproduce_artifacts/robotwin_eval_step25000_50tasks_50episodes_novideo_gpu12_after_training_20261023_102040/status.json",
+      "sha256": "578fcd366d404e91db29ec2e5742502b301bafeeee5e618659fb1bc1d8fa2217"
+    },
+    {
+      "path": "reproduce_artifacts/robotwin_eval_22k25k_scene_repair_20261025_103854/step25000_retest/status.json",
+      "sha256": "52912e3d31d0df444c6dd73c563e1f87ed2cbf330970caa37cc80cae58235576"
+    },
+    {
+      "path": "reproduce_artifacts/robotwin_eval_22k25k_scene_repair_20261025_103854/step22000_retest/status.json",
+      "sha256": "312ae0f83888913c622b2a3e965269851d138232aed2ccd23096710acd69232f"
+    },
+    {
+      "path": "reproduce_artifacts/robotwin_eval_22k25k_scene_repair_20261025_103854/native_source_fix.json",
+      "sha256": "8cba7b9011f2c1ee9e19ccb7e40594dd21a6e5a083c7632ad17d2bf37a3f5a0f"
+    },
+    {
+      "path": "reproduce_artifacts/resume_17000_to25000_aug1090_continuous_gpu56_20261021_150210/training/validation.json",
+      "sha256": "264c147fa0c74c22e1f842474ee2076ddf090281feabbe6119152e4c8fe90205"
+    }
+  ]
+}

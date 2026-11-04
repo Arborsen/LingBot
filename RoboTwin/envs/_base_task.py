@@ -314,7 +314,11 @@ class Base_Task(gym.Env):
             texture_id=self.table_texture,
         )
 
-    def get_cluttered_table(self, cluttered_numbers=10, xlim=[-0.59, 0.59], ylim=[-0.34, 0.34], zlim=[0.741]):
+    def get_cluttered_table(self, cluttered_numbers=10, xlim=None, ylim=None, zlim=None):
+        # Each scene owns its bounds; nonzero table offsets must not accumulate.
+        xlim = list([-0.59, 0.59] if xlim is None else xlim)
+        ylim = list([-0.34, 0.34] if ylim is None else ylim)
+        zlim = list([0.741] if zlim is None else zlim)
         self.record_cluttered_objects = []  # record cluttered objects
 
         xlim[0] += self.table_xy_bias[0]

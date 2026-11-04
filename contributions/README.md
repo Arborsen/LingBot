@@ -1,29 +1,34 @@
-# 上游版本与个人改动
+# 项目范围与个人贡献
 
-此目录记录个人修改和上游贡献状态。下列清单依据 2026 年 10 月 14 日本地工作区整理，状态“本地改进”不代表已经提交或被上游接受。
+本仓库是基于官方LingBot-VLA 2.0和RoboTwin的多任务微调与评测项目。上游模型架构、基础权重、仿真平台和训练框架继续保留原作者归属。
 
-## 源码关系
+## 本项目实现
 
-| 项目 | 来源 | 整理时的本地版本 |
+| 方向 | 实现与证据 |
+| --- | --- |
+| 数据 | clean数据归一化与特征映射；2500条episode的机器人任务映射审计，区分语言指令ID与任务ID |
+| 训练 | 完整checkpoint续训、实际LR/优化器/rank状态核验、任务均衡及弱任务1.5倍采样、draw级随机重放 |
+| 增强 | 10/90像素增强，当前与未来帧及深度/视频辅助分支的一致性，保护性遮挡与CPU验证 |
+| 系统 | A100上的micro batch/累积/梯度检查点短测；保持global batch160，多卡资源与评测服务调度 |
+| 评测 | 独立推理进程、seen/unseen设置、冻结指令/seed、完整任务校验、结果来源哈希与部分完成状态 |
+| 仿真排错 | 定位并修复杂物边界可变默认列表的累积；捕获、恢复和跨GPU重放专家有效初始场景 |
+| 推理方案 | 采用RTC异步动作块续接与重叠区引导；[方法笔记](../docs/rtc.md)注明公开代码和基准范围 |
+
+源码导航与结果见[主页](../README.md)。以上为本仓库实现和应用记录，不表示这些方法都是原创，也不表示已经被上游合并。
+
+## 上游与源码快照
+
+| 项目 | 来源 | 本地记录的版本 |
 | --- | --- | --- |
-| LingBot VLA 2.0 | [上游](https://github.com/Robbyant/lingbot-vla-v2)／[个人 fork](https://github.com/Arborsen/lingbot-vla-v2) | 个人 main `2f77a62`；本地 upstream/main `be969b8` |
-| RoboTwin | [上游](https://github.com/RoboTwin-Platform/RoboTwin) | 本地 HEAD `e8246d7`，另有未提交修改 |
+| LingBot VLA 2.0 | [上游](https://github.com/Robbyant/lingbot-vla-v2) / [个人fork](https://github.com/Arborsen/lingbot-vla-v2) | 早期整理时个人main为`2f77a62`，upstream/main为`be969b8` |
+| RoboTwin | [上游](https://github.com/RoboTwin-Platform/RoboTwin) | 本地源码快照基于`e8246d7`并有实验适配 |
 
-这些版本是整理时状态，不是历史实验执行版本，也不保证对应上游最新分支。主仓库保存源码快照，内部仓库用于独立开发；提交方式见[维护指南](../docs/workflow.md)。
+这些是整理时版本记录，不用当前HEAD回填未记录的历史实验执行版本。根仓库保存普通源码快照；本地内部仓库的Git元数据不会随根仓库公开。
 
-## 个人修改
+## 结果与贡献边界
 
-| 改动 | 文件 | 当前状态与下一步 |
-| --- | --- | --- |
-| 环境安装依赖调整 | `lingbot-vla-v2/tools/create_train_env.sh` | 本地改进；独立确认依赖兼容和安装差异后准备小型 PR |
-| clean 数据归一化与复现输入 | `lingbot-vla-v2/reproduce_configs/`、`lingbot-vla-v2/reproduce_artifacts/robotwin_clean_v30_norm.json` | 个人实验配置；归一化路径需要与通用默认配置区分 |
-| 机器人配置指定个人归一化路径 | `lingbot-vla-v2/configs/robot_configs/robotwin.yaml` | 本地实验改动；准备上游 PR 时去除个人绝对路径 |
-| 仿真期间写入视频帧 | `RoboTwin/envs/_base_task.py` | 内部 RoboTwin 仓库尚未提交的改动；验证后考虑独立 PR |
-| 评测调度、服务与视频工具 | `reproduce_artifacts/` 的历史脚本 | 本地实验工具；保持运行版本，后续逐步提取通用参数和实现 |
-| 目录规范与结果归档 | 主仓库 `docs/`、`tools/`、`experiments/` | 本仓库维护内容 |
-
-## 提交上游贡献
-
-每个分支只解决一个可说明的问题，记录触发条件、改动前后行为和验证方式。剔除个人路径、比赛专用配置和无关实验文件；在个人 fork 发起 PR。得到 PR URL 后在此增加链接、状态和合并版本。
-
-已经上传至个人 GitHub 或在主仓库保存的改动，应写作个人改进；已提交 PR 和已合并贡献分别记录。
+- 训练只使用官方clean演示；randomized只用于测试。
+- 主表是固定50步、每任务50回合的本地仿真成绩；RTC收益未量化。
+- 25k的两项受影响任务已修正重测；22k相应补测中断，完整综合比较未完成。
+- 这里记录本地改进；没有宣称已合并的上游PR。若后续提交上游，应补充实际PR链接与验证。
+- 新增工具和文档采用MIT；上游及嵌套项目继续适用其自身许可证。
